@@ -1,0 +1,38 @@
+Starting a multithreaded compute node server...
+/home/nguy4068/CSCI5105/P1/inputdir/Megamind_bugy.avi
+/home/nguy4068/CSCI5105/P1/inputdir/aloeL.jpg
+/home/nguy4068/CSCI5105/P1/inputdir/apple.jpg
+/home/nguy4068/CSCI5105/P1/inputdir/HappyFish.jpg
+/home/nguy4068/CSCI5105/P1/inputdir/fruits.jpg
+/home/nguy4068/CSCI5105/P1/inputdir/squirrel_cls.jpg
+/home/nguy4068/CSCI5105/P1/inputdir/baboon.jpg
+/home/nguy4068/CSCI5105/P1/inputdir/lena.jpg
+Start compute node 0
+Start compute node 1
+Start compute node 2
+Compute node rejects job in this round
+Start compute node 3
+Compute node rejects job in this round
+Compute node rejects job in this round
+Compute node rejects job in this round
+Compute node rejects job in this round
+Canny edge detect image successfully
+Canny edge detect image successfully
+Compute node rejects job in this round
+Compute node rejects job in this round
+Canny edge detect image successfully
+Compute node rejects job in this round
+Compute node rejects job in this round
+Compute node rejects job in this round
+Compute node rejects job in this round
+Canny edge detect image successfully
+Done image processing on all images
+Canny edge detect image successfully
+Done image processing on all images
+Canny edge detect image successfully
+Done image processing on all images
+Canny edge detect image successfully
+Done image processing on all images
+log4j:WARN No appenders could be found for logger (org.apache.thrift.server.TSimpleServer).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.

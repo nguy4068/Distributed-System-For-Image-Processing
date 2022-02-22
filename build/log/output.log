@@ -1,0 +1,6 @@
+Starting a multithreaded compute node server...
+Received request
+data/orange.jpg
+log4j:WARN No appenders could be found for logger (org.apache.thrift.server.TSimpleServer).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
