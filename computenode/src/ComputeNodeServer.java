@@ -25,7 +25,7 @@ public class ComputeNodeServer{
 	}
 	public static void simple(ComputeNodeService.Processor processor){
 		try{
-			TServerTransport serverTransport = new TServerSocket(9090);
+			TServerTransport serverTransport = new TServerSocket(4068);
 			TThreadPoolServer server = new TThreadPoolServer(new TThreadPoolServer.Args(serverTransport).processor(processor));
 			System.out.println("Starting a multithreaded compute node server...");
 			server.serve();

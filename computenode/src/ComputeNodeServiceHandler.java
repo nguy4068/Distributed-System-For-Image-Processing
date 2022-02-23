@@ -38,7 +38,7 @@ public class ComputeNodeServiceHandler implements ComputeNodeService.Iface{
         	Imgproc.Canny(srcBlur, detectedEdges, lowThresh, lowThresh * RATIO, KERNEL_SIZE, false);
         	dst = new Mat(src.size(), CvType.CV_8UC3, Scalar.all(0));
         	src.copyTo(dst, detectedEdges);
-		Imgcodecs.imwrite("outputdir/output_"+ filename,dst);
+		Imgcodecs.imwrite("output_dir/output_"+ filename,dst);
 		count++;
 		return true;
 

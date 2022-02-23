@@ -27,7 +27,7 @@ public class Server{
 	}
 	public static void simple(ServerService.Processor processor){
 		try{
-			TServerTransport serverTransport = new TServerSocket(9090);
+			TServerTransport serverTransport = new TServerSocket(9000);
 			TSimpleServer server = new TSimpleServer(new Args(serverTransport).processor(processor));
 			System.out.println("Starting a multithreaded compute node server...");
 			server.serve();

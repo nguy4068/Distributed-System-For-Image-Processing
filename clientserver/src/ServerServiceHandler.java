@@ -95,7 +95,7 @@ public class ServerServiceHandler implements ServerService.Iface{
 		for (int i = 0; i < numNodes; i++){
 			try {
 				TTransport transport;
-				transport = new TSocket(nodes_IP.get(i),9090);
+				transport = new TSocket(nodes_IP.get(i),4068);
 				transport.open();
 				TProtocol protocol = new TBinaryProtocol(transport);
 				ComputeNodeService.Client client = new ComputeNodeService.Client(protocol);
