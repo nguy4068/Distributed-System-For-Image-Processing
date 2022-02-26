@@ -15,13 +15,25 @@ public class ComputeNodeServiceHandler implements ComputeNodeService.Iface{
         private static final int KERNEL_SIZE = 3;
         private static final int lowThresh = 20;
         int count = 0;
-	public ComputeNodeServiceHandler(){    	
+        double inject_prob;
+	public ComputeNodeServiceHandler(double inject_prob){
+		this.inject_prob = inject_prob;	
 	}
 	@Override
 	public boolean imgprocess(String filepath){
-		System.out.println("Received request");
+		System.out.println("Received request " + filepath);
 		System.out.println(filepath);
 		System.loadLibrary(Core.NATIVE_LIBRARY_NAME);
+		double random = Math.random();
+		if (random <= inject_prob){
+			//should inject here
+			System.out.println("Delay job");
+			try{
+				Thread.sleep(3000);
+			}catch (Exception e){
+				e.printStackTrace();
+			}
+		}
 		return canny_edge_detect(filepath);
 	}
 	@Override
@@ -40,6 +52,7 @@ public class ComputeNodeServiceHandler implements ComputeNodeService.Iface{
         	src.copyTo(dst, detectedEdges);
 		Imgcodecs.imwrite("output_dir/output_"+ filename,dst);
 		count++;
+		System.out.println("Done writing image for " + filename);
 		return true;
 
 	}

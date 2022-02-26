@@ -30,7 +30,7 @@
   <property name="cpnclientclassname" value="ComputeNodeClient"/>
   <property name="serverclassname" value="Server"/>
   <property name="clientclassname" value="Client"/>
-
+  
   <path id="libs.classpath">
 	  <fileset dir="${env.JAVA_LIBS}">
       <include name="libthrift*.jar" />
@@ -66,25 +66,6 @@
     <javac compiler="modern" includeantruntime="false" srcdir="${srccomputenode}" destdir="${build}" classpathref="build.classpath" />
     <javac compiler="modern" includeantruntime="false" srcdir="${srcserver}" destdir="${build}" classpathref="build.classpath" />
   </target>
-
-  <target name="test" depends="requestdataAPI" />
-
-  <target name="requestdataAPI" description="Run the request data API" depends="compile">
-    <jar jarfile="request.jar" basedir="${build}"/>
-    <parallel>
-      <java classname="RequestDataServer" fork="true" timeout="10000"
-        classpathref="request.classpath" failonerror="false" output="${build}/log/output.log">
-      </java>
-      <sequential>
-        <sleep seconds="2"/>
-        <echo>data request API client simple:</echo>
-        <java classname="DataRequestClient"
-          classpathref="request.classpath" failonerror="true">
-        </java>
-      </sequential>
-    </parallel>
-  </target>
-
   <target name="generate">
     <!-- Generate the thrift gen-java source -->
 	  <exec executable="${env.THRIFT_LIB_PATH}" failonerror="true">
@@ -105,13 +86,19 @@
   <target name="computenodeserver" description="Run a data request server" depends="compile">
       <java classname="${cpnserverclassname}" fork="true"
         classpathref="request.classpath" failonerror="false" output="${build}/log/output_computenode.log">
-      <sysproperty key="java.library.path" path="${env.OPENCV_LIB}"/>
+        <arg value="${computenodeid}"/>
+        <sysproperty key="java.library.path" path="${env.OPENCV_LIB}"/>
+     </java>
+  </target>
+  <target name="computenodeservernohup" description="Run a data request server">
+      <java classname="${cpnserverclassname}" fork="true"
+        classpathref="request.classpath" failonerror="false" output="${build}/log/output_computenode.log">
      </java>
   </target>
   <target name="server" description="Run a data request server" depends="compile">
       <java classname="${serverclassname}" fork="true"
         classpathref="request.classpath" failonerror="false" output="${build}/log/output_server.log">
-        <arg value="autograder/autograder/machine.txt"/>
+        <arg value="config/machine.txt"/>
 	<sysproperty key="java.library.path" path="${env.OPENCV_LIB}"/>
      </java>
   </target>

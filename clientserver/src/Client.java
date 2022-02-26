@@ -15,32 +15,23 @@ public class Client {
 		TProtocol protocol = new TBinaryProtocol(transport);
 		ServerService.Client client = new ServerService.Client(protocol);
 		perform(client);
+		System.out.println("Exit client");
 		transport.close();
 	}catch (TException x){
 		x.printStackTrace();
 	}
 	}
 	private static void perform(ServerService.Client client) throws TException{
-		boolean run = true;
-		System.out.println("Welcome to image processing service!");
-		System.out.println("Please enter path to image file that you want to do canny edge on:");
-		while (run){
-			String command = scanner.nextLine();
-			String[] command_token = command.split(" ");
-			if (command_token[0].equals("quit")){
-			    run = false;
-			}else{
-			    System.out.println(command_token[0]);
-			    boolean result = client.imgprocess(command_token[0]);
-			    if (!result){
-			    	System.out.println("Failed to RPC image process");
-			    }else{
-			        System.out.println("Canny edge detect image successfully");
-			    }
-			}
-
+		System.out.println("Sending result and waiting");
+		boolean result = client.imgprocess("input_dir");
+		System.out.println("result return");
+		if (!result){
+			System.out.println("Failed to RPC image process");
+		}else{
+			System.out.println("Canny edge detect image successfully");
 		}
-		System.out.println("End program, good bye!");
+			
+
 	}
 	
 }
