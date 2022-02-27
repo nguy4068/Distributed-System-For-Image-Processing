@@ -2,8 +2,6 @@
 
 echo "Setting some environment variables for user '$USER'..."
 
-
-
 export JAVA_LIB="/project/$USER/thrift-0.15.0/lib/java/build/libs"
 export JAVA_DEP="/project/$USER/thrift-0.15.0/lib/java/build/deps"
 export THRIFT_LIB_PATH="/project/$USER/thrift-0.15.0/compiler/cpp/thrift"

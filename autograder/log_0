@@ -1,0 +1,608 @@
+UID          PID    PPID  C STIME TTY          TIME CMD
+root           1       0  0 Feb23 ?        00:02:47 /sbin/init
+root           2       0  0 Feb23 ?        00:00:00 [kthreadd]
+root           3       2  0 Feb23 ?        00:00:00 [rcu_gp]
+root           4       2  0 Feb23 ?        00:00:00 [rcu_par_gp]
+root           6       2  0 Feb23 ?        00:00:00 [kworker/0:0H-events_highpri]
+root           9       2  0 Feb23 ?        00:00:00 [mm_percpu_wq]
+root          10       2  0 Feb23 ?        00:00:00 [rcu_tasks_rude_]
+root          11       2  0 Feb23 ?        00:00:00 [rcu_tasks_trace]
+root          12       2  0 Feb23 ?        00:00:02 [ksoftirqd/0]
+root          13       2  0 Feb23 ?        00:12:42 [rcu_sched]
+root          14       2  0 Feb23 ?        00:00:03 [migration/0]
+root          15       2  0 Feb23 ?        00:00:00 [idle_inject/0]
+root          16       2  0 Feb23 ?        00:00:00 [cpuhp/0]
+root          17       2  0 Feb23 ?        00:00:00 [cpuhp/1]
+root          18       2  0 Feb23 ?        00:00:00 [idle_inject/1]
+root          19       2  0 Feb23 ?        00:00:06 [migration/1]
+root          20       2  0 Feb23 ?        00:00:01 [ksoftirqd/1]
+root          22       2  0 Feb23 ?        00:00:00 [kworker/1:0H-events_highpri]
+root          23       2  0 Feb23 ?        00:00:00 [cpuhp/2]
+root          24       2  0 Feb23 ?        00:00:00 [idle_inject/2]
+root          25       2  0 Feb23 ?        00:00:01 [migration/2]
+root          26       2  0 Feb23 ?        00:00:35 [ksoftirqd/2]
+root          28       2  0 Feb23 ?        00:00:00 [kworker/2:0H-events_highpri]
+root          29       2  0 Feb23 ?        00:00:00 [cpuhp/3]
+root          30       2  0 Feb23 ?        00:00:00 [idle_inject/3]
+root          31       2  0 Feb23 ?        00:00:01 [migration/3]
+root          32       2  0 Feb23 ?        00:00:47 [ksoftirqd/3]
+root          34       2  0 Feb23 ?        00:00:00 [kworker/3:0H-events_highpri]
+root          35       2  0 Feb23 ?        00:00:00 [cpuhp/4]
+root          36       2  0 Feb23 ?        00:00:00 [idle_inject/4]
+root          37       2  0 Feb23 ?        00:00:04 [migration/4]
+root          38       2  0 Feb23 ?        00:00:13 [ksoftirqd/4]
+root          40       2  0 Feb23 ?        00:00:00 [kworker/4:0H-events_highpri]
+root          41       2  0 Feb23 ?        00:00:00 [cpuhp/5]
+root          42       2  0 Feb23 ?        00:00:00 [idle_inject/5]
+root          43       2  0 Feb23 ?        00:00:04 [migration/5]
+root          44       2  0 Feb23 ?        00:00:07 [ksoftirqd/5]
+root          46       2  0 Feb23 ?        00:00:00 [kworker/5:0H-events_highpri]
+root          47       2  0 Feb23 ?        00:00:00 [cpuhp/6]
+root          48       2  0 Feb23 ?        00:00:00 [idle_inject/6]
+root          49       2  0 Feb23 ?        00:00:03 [migration/6]
+root          50       2  0 Feb23 ?        00:00:04 [ksoftirqd/6]
+root          52       2  0 Feb23 ?        00:00:00 [kworker/6:0H-kblockd]
+root          53       2  0 Feb23 ?        00:00:00 [cpuhp/7]
+root          54       2  0 Feb23 ?        00:00:00 [idle_inject/7]
+root          55       2  0 Feb23 ?        00:00:03 [migration/7]
+root          56       2  0 Feb23 ?        00:00:03 [ksoftirqd/7]
+root          58       2  0 Feb23 ?        00:00:00 [kworker/7:0H-events_highpri]
+root          59       2  0 Feb23 ?        00:00:00 [cpuhp/8]
+root          60       2  0 Feb23 ?        00:00:00 [idle_inject/8]
+root          61       2  0 Feb23 ?        00:00:06 [migration/8]
+root          62       2  0 Feb23 ?        00:00:00 [ksoftirqd/8]
+root          64       2  0 Feb23 ?        00:00:00 [kworker/8:0H-kblockd]
+root          65       2  0 Feb23 ?        00:00:00 [cpuhp/9]
+root          66       2  0 Feb23 ?        00:00:00 [idle_inject/9]
+root          67       2  0 Feb23 ?        00:00:06 [migration/9]
+root          68       2  0 Feb23 ?        00:00:01 [ksoftirqd/9]
+root          70       2  0 Feb23 ?        00:00:00 [kworker/9:0H-events_highpri]
+root          71       2  0 Feb23 ?        00:00:00 [cpuhp/10]
+root          72       2  0 Feb23 ?        00:00:00 [idle_inject/10]
+root          73       2  0 Feb23 ?        00:00:04 [migration/10]
+root          74       2  0 Feb23 ?        00:00:00 [ksoftirqd/10]
+root          76       2  0 Feb23 ?        00:00:00 [kworker/10:0H-events_highpri]
+root          77       2  0 Feb23 ?        00:00:00 [cpuhp/11]
+root          78       2  0 Feb23 ?        00:00:00 [idle_inject/11]
+root          79       2  0 Feb23 ?        00:00:05 [migration/11]
+root          80       2  0 Feb23 ?        00:00:18 [ksoftirqd/11]
+root          82       2  0 Feb23 ?        00:00:00 [kworker/11:0H-events_highpri]
+root          83       2  0 Feb23 ?        00:00:00 [cpuhp/12]
+root          84       2  0 Feb23 ?        00:00:00 [idle_inject/12]
+root          85       2  0 Feb23 ?        00:00:05 [migration/12]
+root          86       2  0 Feb23 ?        00:00:00 [ksoftirqd/12]
+root          88       2  0 Feb23 ?        00:00:00 [kworker/12:0H-events_highpri]
+root          89       2  0 Feb23 ?        00:00:00 [cpuhp/13]
+root          90       2  0 Feb23 ?        00:00:00 [idle_inject/13]
+root          91       2  0 Feb23 ?        00:00:04 [migration/13]
+root          92       2  0 Feb23 ?        00:00:00 [ksoftirqd/13]
+root          94       2  0 Feb23 ?        00:00:00 [kworker/13:0H-events_highpri]
+root          95       2  0 Feb23 ?        00:00:00 [cpuhp/14]
+root          96       2  0 Feb23 ?        00:00:00 [idle_inject/14]
+root          97       2  0 Feb23 ?        00:00:04 [migration/14]
+root          98       2  0 Feb23 ?        00:00:00 [ksoftirqd/14]
+root         100       2  0 Feb23 ?        00:00:00 [kworker/14:0H-events_highpri]
+root         101       2  0 Feb23 ?        00:00:00 [cpuhp/15]
+root         102       2  0 Feb23 ?        00:00:00 [idle_inject/15]
+root         103       2  0 Feb23 ?        00:00:04 [migration/15]
+root         104       2  0 Feb23 ?        00:00:00 [ksoftirqd/15]
+root         106       2  0 Feb23 ?        00:00:00 [kworker/15:0H-kblockd]
+root         107       2  0 Feb23 ?        00:00:00 [kdevtmpfs]
+root         108       2  0 Feb23 ?        00:00:00 [netns]
+root         109       2  0 Feb23 ?        00:00:00 [inet_frag_wq]
+root         110       2  0 Feb23 ?        00:00:00 [kauditd]
+root         111       2  0 Feb23 ?        00:00:00 [khungtaskd]
+root         112       2  0 Feb23 ?        00:00:00 [oom_reaper]
+root         113       2  0 Feb23 ?        00:00:00 [writeback]
+root         114       2  0 Feb23 ?        00:00:10 [kcompactd0]
+root         115       2  0 Feb23 ?        00:00:00 [ksmd]
+root         116       2  0 Feb23 ?        00:00:04 [khugepaged]
+root         163       2  0 Feb23 ?        00:00:00 [kintegrityd]
+root         164       2  0 Feb23 ?        00:00:00 [kblockd]
+root         165       2  0 Feb23 ?        00:00:00 [blkcg_punt_bio]
+root         166       2  0 Feb23 ?        00:00:00 [tpm_dev_wq]
+root         167       2  0 Feb23 ?        00:00:00 [ata_sff]
+root         168       2  0 Feb23 ?        00:00:00 [md]
+root         169       2  0 Feb23 ?        00:00:00 [edac-poller]
+root         170       2  0 Feb23 ?        00:00:00 [devfreq_wq]
+root         171       2  0 Feb23 ?        00:00:00 [watchdogd]
+root         173       2  0 Feb23 ?        00:00:00 [kworker/0:1H-kblockd]
+root         175       2  0 Feb23 ?        00:00:00 [kswapd0]
+root         176       2  0 Feb23 ?        00:00:00 [ecryptfs-kthrea]
+root         178       2  0 Feb23 ?        00:00:00 [kthrotld]
+root         179       2  0 Feb23 ?        00:00:00 [irq/122-aerdrv]
+root         180       2  0 Feb23 ?        00:00:00 [irq/122-pcie-dp]
+root         189       2  0 Feb23 ?        00:00:09 [kworker/10:1-mm_percpu_wq]
+root         194       2  0 Feb23 ?        00:00:07 [kworker/15:1-events]
+root         195       2  0 Feb23 ?        00:00:00 [acpi_thermal_pm]
+root         196       2  0 Feb23 ?        00:00:00 [vfio-irqfd-clea]
+root         200       2  0 Feb23 ?        00:00:07 [kworker/13:2-mm_percpu_wq]
+root         201       2  0 Feb23 ?        00:00:00 [kworker/7:1H-kblockd]
+root         202       2  0 Feb23 ?        00:00:00 [ipv6_addrconf]
+root         211       2  0 Feb23 ?        00:00:00 [kstrp]
+root         214       2  0 Feb23 ?        00:00:00 [zswap-shrink]
+root         222       2  0 Feb23 ?        00:00:00 [charger_manager]
+root         244       2  0 Feb23 ?        00:00:01 [kworker/2:1H-kblockd]
+root         273       2  0 Feb23 ?        00:00:00 [kworker/5:1H-kblockd]
+root         297       2  0 Feb23 ?        00:00:00 [nvme-wq]
+root         298       2  0 Feb23 ?        00:00:00 [nvme-reset-wq]
+root         300       2  0 Feb23 ?        00:00:00 [nvme-delete-wq]
+root         301       2  0 Feb23 ?        00:00:00 [scsi_eh_0]
+root         302       2  0 Feb23 ?        00:00:00 [scsi_tmf_0]
+root         303       2  0 Feb23 ?        00:00:00 [scsi_eh_1]
+root         304       2  0 Feb23 ?        00:00:00 [scsi_tmf_1]
+root         305       2  0 Feb23 ?        00:00:00 [scsi_eh_2]
+root         306       2  0 Feb23 ?        00:00:00 [scsi_tmf_2]
+root         307       2  0 Feb23 ?        00:00:00 [scsi_eh_3]
+root         308       2  0 Feb23 ?        00:00:00 [scsi_tmf_3]
+root         315       2  0 Feb23 ?        00:00:01 [kworker/3:1H-kblockd]
+root         318       2  0 Feb23 ?        00:00:00 [kworker/8:1H-kblockd]
+root         321       2  0 Feb23 ?        00:00:00 [kdmflush]
+root         323       2  0 Feb23 ?        00:00:00 [kdmflush]
+root         324       2  0 Feb23 ?        00:00:00 [kdmflush]
+root         326       2  0 Feb23 ?        00:00:00 [kdmflush]
+root         329       2  0 Feb23 ?        00:00:00 [kdmflush]
+root         330       2  0 Feb23 ?        00:00:00 [kworker/9:1H-kblockd]
+root         335       2  0 Feb23 ?        00:00:00 [kworker/13:1H-kblockd]
+root         337       2  0 Feb23 ?        00:00:00 [kworker/1:1H-kblockd]
+root         347       2  0 Feb23 ?        00:00:00 [kworker/4:1H-kblockd]
+root         371       2  0 Feb23 ?        00:00:00 [scsi_eh_4]
+root         372       2  0 Feb23 ?        00:00:00 [scsi_tmf_4]
+root         373       2  0 Feb23 ?        00:00:36 [usb-storage]
+root         374       2  0 Feb23 ?        00:00:00 [uas]
+root         376       2  0 Feb23 ?        00:00:06 [jbd2/dm-0-8]
+root         377       2  0 Feb23 ?        00:00:00 [ext4-rsv-conver]
+root         386       2  0 Feb23 ?        00:00:00 [kworker/6:1H-kblockd]
+root         389       2  0 Feb23 ?        00:00:00 [jbd2/dm-2-8]
+root         390       2  0 Feb23 ?        00:00:00 [ext4-rsv-conver]
+root         427       2  0 Feb23 ?        00:00:00 [kworker/15:1H-kblockd]
+root         446       1  0 Feb23 ?        00:01:10 /lib/systemd/systemd-journald
+root         447       2  0 Feb23 ?        00:00:00 [kworker/14:1H-kblockd]
+root         448       2  0 Feb23 ?        00:00:00 [rpciod]
+root         449       2  0 Feb23 ?        00:00:00 [xprtiod]
+root         462       2  0 Feb23 ?        00:00:01 [kworker/11:1H-kblockd]
+root         477       1  0 Feb23 ?        00:00:07 /lib/systemd/systemd-udevd
+root         516       2  0 Feb23 ?        00:00:00 [kworker/10:1H-kblockd]
+root         518       2  0 Feb23 ?        00:00:00 [kworker/12:1H-kblockd]
+root         576       2  0 Feb23 ?        00:00:00 [cryptd]
+root         625       2  0 Feb23 ?        00:00:00 [card0-crtc0]
+root         626       2  0 Feb23 ?        00:00:00 [card0-crtc1]
+root         627       2  0 Feb23 ?        00:00:00 [card0-crtc2]
+root         670       2  0 Feb23 ?        00:00:00 [jbd2/dm-1-8]
+root         671       2  0 Feb23 ?        00:00:00 [ext4-rsv-conver]
+root         769       2  0 Feb23 ?        00:00:11 [jbd2/dm-3-8]
+root         770       2  0 Feb23 ?        00:00:00 [ext4-rsv-conver]
+root         776       2  0 Feb23 ?        00:00:00 [loop0]
+root         792       2  0 Feb23 ?        00:00:00 [loop1]
+root         794       2  0 Feb23 ?        00:00:00 [loop2]
+root         795       2  0 Feb23 ?        00:00:00 [loop3]
+root         796       2  0 Feb23 ?        00:00:00 [loop4]
+root         797       2  0 Feb23 ?        00:00:00 [loop5]
+root         798       2  0 Feb23 ?        00:00:00 [loop6]
+root         799       2  0 Feb23 ?        00:00:00 [loop7]
+root         800       2  0 Feb23 ?        00:00:00 [loop8]
+root         801       2  0 Feb23 ?        00:00:00 [loop9]
+root         806       2  0 Feb23 ?        00:00:00 [jbd2/dm-4-8]
+root         807       2  0 Feb23 ?        00:00:00 [ext4-rsv-conver]
+root         808       2  0 Feb23 ?        00:00:00 [loop10]
+root         809       2  0 Feb23 ?        00:00:00 [loop11]
+root         811       2  0 Feb23 ?        00:00:00 [loop12]
+root         812       2  0 Feb23 ?        00:00:00 [loop13]
+root         813       2  0 Feb23 ?        00:00:00 [loop14]
+root         814       2  0 Feb23 ?        00:00:00 [loop15]
+root         815       2  0 Feb23 ?        00:00:00 [loop16]
+root         816       2  0 Feb23 ?        00:00:00 [loop17]
+_rpc         859       1  0 Feb23 ?        00:00:00 /sbin/rpcbind -f -w
+systemd+     860       1  0 Feb23 ?        00:00:21 /lib/systemd/systemd-resolved
+root         884       1  0 Feb23 ?        00:00:09 /usr/lib/accountsservice/accounts-daemon
+root         889       1  0 Feb23 ?        00:00:01 /usr/sbin/acpid
+avahi        900       1  0 Feb23 ?        00:00:36 avahi-daemon: running [csel-kh4250-05.local]
+root         906       1  0 Feb23 ?        00:00:00 /usr/sbin/cron -f
+avahi        908     900  0 Feb23 ?        00:00:00 avahi-daemon: chroot helper
+message+     909       1  0 Feb23 ?        00:08:40 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+root         910       1  0 Feb23 ?        00:16:22 /usr/sbin/NetworkManager --no-daemon
+root         918       1  0 Feb23 ?        00:00:18 /usr/sbin/irqbalance --foreground
+root         921       1  0 Feb23 ?        00:00:00 /usr/bin/python3 /usr/bin/networkd-dispatcher --run-startup-triggers
+root         927       1  0 Feb23 ?        00:00:42 /usr/sbin/nscd
+root         943       1  0 Feb23 ?        00:01:02 /usr/lib/policykit-1/polkitd --no-debug
+syslog       951       1  0 Feb23 ?        00:00:15 /usr/sbin/rsyslogd -n -iNONE
+root         961       1  0 Feb23 ?        00:00:00 /usr/sbin/smartd -n
+root         967       1  0 Feb23 ?        00:00:49 /usr/lib/snapd/snapd
+root         973       1  0 Feb23 ?        00:00:00 /usr/libexec/switcheroo-control
+root         975       1  0 Feb23 ?        00:00:02 /lib/systemd/systemd-logind
+root         981       1  0 Feb23 ?        00:00:03 /usr/lib/udisks2/udisksd
+root         988       1  0 Feb23 ?        00:00:01 /sbin/wpa_supplicant -u -s -O /run/wpa_supplicant
+root        1057       1  0 Feb23 ?        00:00:00 /usr/sbin/ModemManager
+fastx       1070       1  0 Feb23 ?        00:05:13 /usr/bin/node /usr/lib/fastx2/www/server/bin/fastx_server.js
+root        1083       1  0 Feb23 ?        00:00:12 /opt/puppetlabs/puppet/bin/ruby /opt/puppetlabs/puppet/bin/puppet agent --no-daemonize
+root        1100       1  0 Feb23 ?        00:09:34 /usr/bin/python3 /usr/bin/fail2ban-server -xf start
+ntp         1102       1  0 Feb23 ?        00:00:17 /usr/sbin/ntpd -p /var/run/ntpd.pid -g -u 135:135
+root        1122       1  0 Feb23 ?        00:00:00 sshd: /usr/sbin/sshd -D [listener] 0 of 10-100 startups
+root        1132       1  0 Feb23 ?        00:00:44 /opt/quest/sbin/.vasd -p /var/opt/quest/vas/vasd/.vasd.pid
+daemon      1140    1132  0 Feb23 ?        00:04:41 /opt/quest/sbin/.vasd -p /var/opt/quest/vas/vasd/.vasd.pid
+root        1141       1  0 Feb23 ?        00:00:00 /usr/sbin/gdm3
+daemon      1142    1140  0 Feb23 ?        00:13:46 /opt/quest/sbin/.vasd -p /var/opt/quest/vas/vasd/.vasd.pid
+daemon      1143    1140  0 Feb23 ?        00:04:31 /opt/quest/sbin/.vasd -p /var/opt/quest/vas/vasd/.vasd.pid
+daemon      1144    1140  0 Feb23 ?        00:00:01 /opt/quest/sbin/.vasd -p /var/opt/quest/vas/vasd/.vasd.pid
+daemon      1145    1140  0 Feb23 ?        00:00:00 /opt/quest/sbin/.vasd -p /var/opt/quest/vas/vasd/.vasd.pid
+root        1158       1  0 Feb23 ?        00:00:12 /usr/sbin/apache2 -k start
+root        1279       1  0 Feb23 ?        00:00:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+rtkit       1319       1  0 Feb23 ?        00:00:04 /usr/libexec/rtkit-daemon
+root        1447       1  0 Feb23 ?        00:00:00 /usr/lib/upower/upowerd
+root        1619       1  0 Feb23 ?        00:15:25 splunkd -p 8089 start
+root        1620    1619  0 Feb23 ?        00:00:03 [splunkd pid=1619] splunkd -p 8089 start [process-runner]
+colord      1845       1  0 Feb23 ?        00:00:00 /usr/libexec/colord
+node-ex+    1940       1  2 Feb23 ?        01:56:45 /usr/local/bin/node_exporter --web.listen-address=:9150 --collector.systemd --collector.filesystem.ignored-fs-types=^(sys|proc|auto|n|squash|rpc_pipe)fs$ --collector.filesystem.ignored-mount-points=^/(dev|proc|sys|home|web|project|adm|snapshots|soft)($|/)
+whoopsie    1955       1  0 Feb23 ?        00:00:00 /usr/bin/whoopsie -f
+kernoops    1993       1  0 Feb23 ?        00:00:06 /usr/sbin/kerneloops --test
+kernoops    2005       1  0 Feb23 ?        00:00:06 /usr/sbin/kerneloops
+root        2346       1  0 Feb23 ?        00:00:01 /usr/lib/postfix/sbin/master -w
+postfix     2348    2346  0 Feb23 ?        00:00:00 qmgr -l -t unix -u
+root        3305       2  0 Feb23 ?        00:00:00 [nfsiod]
+statd       3319       1  0 Feb23 ?        00:00:00 /sbin/rpc.statd --no-notify
+root        3389       2  0 Feb23 ?        00:00:00 [NFSv4 callback]
+root       12322       1  0 Feb23 ?        00:00:42 /usr/sbin/automount --pid-file /var/run/autofs.pid
+root       46019    1122  0 Feb23 ?        00:00:00 sshd: boley [priv]
+boley      46454       1  0 Feb23 ?        00:00:03 /lib/systemd/systemd --user
+boley      46455   46454  0 Feb23 ?        00:00:00 (sd-pam)
+boley      46461   46454  0 Feb23 ?        00:00:00 /usr/bin/pulseaudio --daemonize=no --log-target=journal
+boley      46463   46454  0 Feb23 ?        00:00:00 /usr/libexec/tracker-miner-fs
+boley      46473   46454  0 Feb23 ?        00:00:00 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+boley      46494   46454  0 Feb23 ?        00:00:00 /usr/libexec/gvfsd
+boley      46499   46454  0 Feb23 ?        00:00:00 /usr/libexec/gvfsd-fuse /run/user/36209/gvfs -f -o big_writes
+boley      46501   46454  0 Feb23 ?        00:00:04 /usr/libexec/gvfs-udisks2-volume-monitor
+boley      46532   46454  0 Feb23 ?        00:00:00 /usr/libexec/gvfs-goa-volume-monitor
+boley      46540   46454  0 Feb23 ?        00:00:21 /usr/libexec/goa-daemon
+boley      46547   46454  0 Feb23 ?        00:00:07 /usr/libexec/goa-identity-service
+boley      46554   46454  0 Feb23 ?        00:00:00 /usr/libexec/gvfs-mtp-volume-monitor
+boley      46558   46454  0 Feb23 ?        00:00:09 /usr/libexec/gvfs-afc-volume-monitor
+boley      46563   46454  0 Feb23 ?        00:00:00 /usr/libexec/gvfs-gphoto2-volume-monitor
+boley      46684   46019  0 Feb23 ?        00:00:00 sshd: boley@notty
+boley      46735       1  0 Feb23 ?        00:00:00 /usr/bin/perl /usr/lib/fastx2/api/link --webtoken=8c62e5518bb3c1951845acd0906fd176fcded007e93ff1d7763f8379c8b6270d
+boley      46750       1  0 Feb23 ?        00:02:21 FastX monitor 101
+boley      46751   46750  1 Feb23 ?        00:53:11 Xorg :101 -logfile /home/boley/.fastx_server/csel-kh4250-05/sessions/FX-5b39ae671ffe4ccc9ff48fb63d2e090c/xorg.log -config /home/boley/.fastx_server/csel-kh4250-05/sessions/FX-5b39ae671ffe4ccc9ff48fb63d2e090c/xorg.conf -auth /home/boley/.fastx_server/csel-kh4250-05/sessions/FX-5b39ae671ffe4ccc9ff48fb63d2e090c/authority -noreset
+boley      46756   46750  0 Feb23 ?        00:00:00 xfce4-session
+boley      46804   46454  0 Feb23 ?        00:00:00 /usr/libexec/at-spi-bus-launcher
+boley      46809   46804  0 Feb23 ?        00:00:00 /usr/bin/dbus-daemon --config-file=/usr/share/defaults/at-spi2/accessibility.conf --nofork --print-address 3
+boley      46813   46454  0 Feb23 ?        00:00:00 /usr/lib/x86_64-linux-gnu/xfce4/xfconf/xfconfd
+boley      46820   46454  0 Feb23 ?        00:00:00 /usr/libexec/at-spi2-registryd --use-gnome-session
+boley      46825       1  0 Feb23 ?        00:00:00 /usr/bin/ssh-agent -s
+boley      46828   46454  0 Feb23 ?        00:00:00 /usr/bin/gpg-agent --supervised
+boley      46830   46756  0 Feb23 ?        00:00:01 xfwm4
+boley      46834       1  0 Feb23 ?        00:00:28 xfsettingsd
+boley      46835   46756  0 Feb23 ?        00:00:07 xfce4-panel
+boley      46841   46756  0 Feb23 ?        00:00:00 Thunar --daemon
+boley      46846   46756  0 Feb23 ?        00:00:04 xfdesktop
+boley      46850   46835  0 Feb23 ?        00:00:00 /usr/lib/x86_64-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/x86_64-linux-gnu/xfce4/panel/plugins/libactions.so 5 12582924 actions Action Buttons Log out, lock or other system actions
+boley      46851   46835  0 Feb23 ?        00:00:00 /usr/lib/x86_64-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/x86_64-linux-gnu/xfce4/panel/plugins/libsystray.so 9 12582925 systray Notification Area Area where notification icons appear
+boley      46864   46756  0 Feb23 ?        00:00:00 /usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1
+boley      46869   46756  0 Feb23 ?        00:00:00 /usr/libexec/geoclue-2.0/demos/agent
+boley      46872   46454  0 Feb23 ?        00:00:00 /usr/libexec/dconf-service
+boley      46875   46756  0 Feb23 ?        00:00:00 /usr/libexec/evolution-data-server/evolution-alarm-notify
+boley      46894   46756  0 Feb23 ?        00:00:32 /usr/lib/x86_64-linux-gnu/libexec/kdeconnectd
+boley      46906   46756  0 Feb23 ?        00:00:00 /usr/bin/python3 /usr/share/system-config-printer/applet.py
+boley      46907   46494  0 Feb23 ?        00:00:00 /usr/libexec/gvfsd-trash --spawner :1.3 /org/gtk/gvfs/exec_spaw/0
+boley      46919   46454  0 Feb23 ?        00:00:00 /usr/libexec/evolution-source-registry
+boley      46930   46756  0 Feb23 ?        00:00:00 /usr/bin/python3 /usr/bin/blueman-applet
+boley      46937   46756  0 Feb23 ?        00:00:00 xiccd
+boley      46955   46454  0 Feb23 ?        00:00:00 /usr/libexec/gvfsd-metadata
+boley      46969       1  0 Feb23 ?        00:00:00 /usr/bin/python3 /usr/bin/blueman-tray
+boley      46977   46454  0 Feb23 ?        00:00:00 /usr/lib/x86_64-linux-gnu/xfce4/notifyd/xfce4-notifyd
+boley      46990   46454  0 Feb23 ?        00:00:00 /usr/libexec/evolution-calendar-factory
+boley      46995   46454  0 Feb23 ?        00:00:00 /usr/lib/bluetooth/obexd
+boley      47003   46454  0 Feb23 ?        00:00:00 /usr/libexec/evolution-addressbook-factory
+boley      48168   46494  0 Feb23 ?        00:00:00 /usr/libexec/gvfsd-network --spawner :1.3 /org/gtk/gvfs/exec_spaw/1
+boley      48210   46494  0 Feb23 ?        00:00:07 /usr/libexec/gvfsd-dnssd --spawner :1.3 /org/gtk/gvfs/exec_spaw/3
+boley      48579   46454  0 Feb23 ?        00:00:26 /usr/libexec/gnome-terminal-server
+boley      48588   48579  0 Feb23 pts/0    00:00:00 -csh
+boley      60450   46454  0 Feb23 ?        00:00:00 /usr/bin/gnome-keyring-daemon --start --foreground --components=secrets
+root       81372    1141  0 Feb23 ?        00:00:00 gdm-session-worker [pam/gdm-password]
+wan00802   81417       1  0 Feb23 ?        00:00:03 /lib/systemd/systemd --user
+wan00802   81418   81417  0 Feb23 ?        00:00:00 (sd-pam)
+wan00802   81423   81417  0 Feb23 ?        00:00:01 /usr/bin/pulseaudio --daemonize=no --log-target=journal
+wan00802   81425   81417  0 Feb23 ?        00:00:00 /usr/libexec/tracker-miner-fs
+wan00802   81429   81417  0 Feb23 ?        00:00:13 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+wan00802   81431       1  0 Feb23 ?        00:00:31 /usr/bin/gnome-keyring-daemon --daemonize --login
+wan00802   81449   81417  0 Feb23 ?        00:00:00 /usr/libexec/gvfsd
+wan00802   81454   81417  0 Feb23 ?        00:00:00 /usr/libexec/gvfsd-fuse /run/user/2685236/gvfs -f -o big_writes
+wan00802   81459   81417  0 Feb23 ?        00:00:04 /usr/libexec/gvfs-udisks2-volume-monitor
+wan00802   81467   81417  0 Feb23 ?        00:00:00 /usr/libexec/gvfs-goa-volume-monitor
+wan00802   81471   81417  0 Feb23 ?        00:01:25 /usr/libexec/goa-daemon
+wan00802   81479   81417  0 Feb23 ?        00:00:07 /usr/libexec/goa-identity-service
+wan00802   81486   81417  0 Feb23 ?        00:00:00 /usr/libexec/gvfs-mtp-volume-monitor
+wan00802   81490   81417  0 Feb23 ?        00:00:08 /usr/libexec/gvfs-afc-volume-monitor
+wan00802   81495   81417  0 Feb23 ?        00:00:00 /usr/libexec/gvfs-gphoto2-volume-monitor
+wan00802   81506   81372  0 Feb23 tty2     00:00:00 /usr/lib/gdm3/gdm-x-session --run-script env GNOME_SHELL_SESSION_MODE=ubuntu /usr/bin/gnome-session --systemd --session=ubuntu
+wan00802   81508   81506  0 Feb23 tty2     00:08:09 /usr/lib/xorg/Xorg vt2 -displayfd 3 -auth /run/user/2685236/gdm/Xauthority -background none -noreset -keeptty -verbose 3
+wan00802   81543   81417  0 Feb23 ?        00:00:00 /usr/libexec/gvfsd-metadata
+wan00802   81556   81506  0 Feb23 tty2     00:00:00 /usr/lib/gnome-session/gnome-session-binary --systemd --session=ubuntu
+wan00802   81633   81556  0 Feb23 tty2     00:00:00 [kamsg] <defunct>
+wan00802   81634   81556  0 Feb23 tty2     00:00:40 [KeyAccess] <defunct>
+wan00802   81637   81556  0 Feb23 ?        00:00:00 /usr/bin/ssh-agent /usr/bin/im-launch env GNOME_SHELL_SESSION_MODE=ubuntu /usr/bin/gnome-session --systemd --session=ubuntu
+wan00802   81655   81417  0 Feb23 ?        00:00:00 /usr/libexec/at-spi-bus-launcher
+wan00802   81661   81655  0 Feb23 ?        00:00:00 /usr/bin/dbus-daemon --config-file=/usr/share/defaults/at-spi2/accessibility.conf --nofork --print-address 3
+wan00802   81664   81417  0 Feb23 ?        00:00:01 /usr/libexec/at-spi2-registryd --use-gnome-session
+wan00802   81683   81417  0 Feb23 ?        00:00:00 /usr/libexec/gnome-session-ctl --monitor
+wan00802   81690   81417  0 Feb23 ?        00:00:00 /usr/libexec/gnome-session-binary --systemd-service --session=ubuntu
+wan00802   81704   81417  0 Feb23 ?        00:05:17 /usr/bin/gnome-shell
+wan00802   81770   81704  0 Feb23 ?        00:00:01 ibus-daemon --panel disable --xim
+wan00802   81777   81770  0 Feb23 ?        00:00:18 /usr/libexec/ibus-dconf
+wan00802   81778   81770  0 Feb23 ?        00:00:21 /usr/libexec/ibus-extension-gtk3
+wan00802   81780   81417  0 Feb23 ?        00:00:20 /usr/libexec/ibus-x11 --kill-daemon
+wan00802   81782   81417  0 Feb23 ?        00:00:18 /usr/libexec/ibus-portal
+wan00802   81788   81417  0 Feb23 ?        00:00:00 /usr/libexec/xdg-permission-store
+wan00802   81799   81417  0 Feb23 ?        00:00:00 /usr/libexec/gnome-shell-calendar-server
+wan00802   81809   81417  0 Feb23 ?        00:00:03 /usr/libexec/evolution-source-registry
+wan00802   81818   81417  0 Feb23 ?        00:00:00 /usr/libexec/dconf-service
+wan00802   81830   81417  0 Feb23 ?        00:00:14 /usr/bin/Thunar --daemon
+wan00802   81834   81417  0 Feb23 ?        00:00:00 /usr/lib/x86_64-linux-gnu/xfce4/xfconf/xfconfd
+wan00802   81841   81417  0 Feb23 ?        00:00:00 /usr/bin/gjs /usr/share/gnome-shell/org.gnome.Shell.Notifications
+wan00802   81856   81417  0 Feb23 ?        00:00:00 /usr/libexec/gsd-a11y-settings
+wan00802   81857   81417  0 Feb23 ?        00:00:01 /usr/libexec/gsd-color
+wan00802   81859   81417  0 Feb23 ?        00:00:00 /usr/libexec/gsd-datetime
+wan00802   81862   81417  0 Feb23 ?        00:00:30 /usr/libexec/gsd-housekeeping
+wan00802   81865   81417  0 Feb23 ?        00:00:00 /usr/libexec/gsd-keyboard
+wan00802   81867   81417  0 Feb23 ?        00:00:00 /usr/libexec/gsd-media-keys
+wan00802   81868   81417  0 Feb23 ?        00:00:00 /usr/libexec/gsd-power
+wan00802   81871   81417  0 Feb23 ?        00:00:02 /usr/libexec/gsd-print-notifications
+wan00802   81875   81417  0 Feb23 ?        00:00:00 /usr/libexec/gsd-rfkill
+wan00802   81876   81417  0 Feb23 ?        00:00:00 /usr/libexec/gsd-screensaver-proxy
+wan00802   81877   81417  0 Feb23 ?        00:00:02 /usr/libexec/gsd-sharing
+wan00802   81878   81417  0 Feb23 ?        00:00:00 /usr/libexec/gsd-smartcard
+wan00802   81879   81417  0 Feb23 ?        00:00:00 /usr/libexec/gsd-sound
+wan00802   81881   81417  0 Feb23 ?        00:00:00 /usr/libexec/gsd-usb-protection
+wan00802   81883   81417  0 Feb23 ?        00:00:00 /usr/libexec/gsd-wacom
+wan00802   81886   81417  0 Feb23 ?        00:00:00 /usr/libexec/gsd-wwan
+wan00802   81888   81417  0 Feb23 ?        00:00:43 /usr/libexec/gsd-xsettings
+wan00802   81902   81690  0 Feb23 ?        00:00:00 /usr/lib/x86_64-linux-gnu/indicator-messages/indicator-messages-service
+wan00802   81910   81690  0 Feb23 ?        00:00:00 /usr/libexec/gsd-disk-utility-notify
+wan00802   81927   81690  0 Feb23 ?        00:00:14 /usr/libexec/evolution-data-server/evolution-alarm-notify
+wan00802   81934   81690  0 Feb23 ?        00:00:31 /usr/lib/x86_64-linux-gnu/libexec/kdeconnectd
+wan00802   81938   81690  0 Feb23 ?        00:00:00 /usr/bin/python3 /usr/bin/blueman-applet
+wan00802   81969   81417  0 Feb23 ?        00:00:00 /usr/libexec/gsd-printer
+wan00802   82016   81417  0 Feb23 ?        00:00:19 /usr/libexec/evolution-calendar-factory
+wan00802   82030   81417  0 Feb23 ?        00:00:00 /usr/bin/python3 /usr/bin/blueman-tray
+wan00802   82041   81417  0 Feb23 ?        00:00:00 /usr/libexec/evolution-addressbook-factory
+wan00802   82069   81417  0 Feb23 ?        00:00:00 /usr/lib/bluetooth/obexd
+wan00802   82120   81449  0 Feb23 ?        00:00:00 /usr/libexec/gvfsd-trash --spawner :1.3 /org/gtk/gvfs/exec_spaw/0
+wan00802   82182   81770  0 Feb23 ?        00:00:18 /usr/libexec/ibus-engine-simple
+wan00802   82358   81417  0 Feb23 ?        00:02:54 /opt/google/chrome/chrome --enable-crashpad
+wan00802   82364   82358  0 Feb23 ?        00:00:00 cat
+wan00802   82365   82358  0 Feb23 ?        00:00:00 cat
+wan00802   82367   81417  0 Feb23 ?        00:00:00 /opt/google/chrome/chrome_crashpad_handler --monitor-self --monitor-self-annotation=ptype=crashpad-handler --database=/home/wan00802/.config/google-chrome/Crash Reports --url=https://clients2.google.com/cr/report --annotation=channel= --annotation=lsb-release=Ubuntu 20.04.3 LTS --annotation=plat=Linux --annotation=prod=Chrome_Linux --annotation=ver=98.0.4758.102 --initial-client-fd=5 --shared-client-connection
+wan00802   82369   81417  0 Feb23 ?        00:00:00 /opt/google/chrome/chrome_crashpad_handler --no-periodic-tasks --monitor-self-annotation=ptype=crashpad-handler --database=/home/wan00802/.config/google-chrome/Crash Reports --url=https://clients2.google.com/cr/report --annotation=channel= --annotation=lsb-release=Ubuntu 20.04.3 LTS --annotation=plat=Linux --annotation=prod=Chrome_Linux --annotation=ver=98.0.4758.102 --initial-client-fd=4 --shared-client-connection
+wan00802   82375   82358  0 Feb23 ?        00:00:00 /opt/google/chrome/chrome --type=zygote --no-zygote-sandbox --enable-crashpad --crashpad-handler-pid=82367 --enable-crash-reporter=, --change-stack-guard-on-fork=enable --enable-crashpad
+wan00802   82376   82358  0 Feb23 ?        00:00:00 /opt/google/chrome/chrome --type=zygote --enable-crashpad --crashpad-handler-pid=82367 --enable-crash-reporter=, --change-stack-guard-on-fork=enable --enable-crashpad
+wan00802   82377   82376  0 Feb23 ?        00:00:00 /opt/google/chrome/nacl_helper
+wan00802   82380   82376  0 Feb23 ?        00:00:00 /opt/google/chrome/chrome --type=zygote --enable-crashpad --crashpad-handler-pid=82367 --enable-crash-reporter=, --change-stack-guard-on-fork=enable --enable-crashpad
+wan00802   82400   81417  0 Feb23 ?        00:00:05 /usr/libexec/xdg-desktop-portal
+wan00802   82402   82375  2 Feb23 ?        01:18:55 /opt/google/chrome/chrome --type=gpu-process --enable-crashpad --crashpad-handler-pid=82367 --enable-crash-reporter=, --change-stack-guard-on-fork=enable --gpu-preferences=UAAAAAAAAAAgAAAIAAAAAAAAAAAAAAAAAABgAAAAAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAABgAAAAAAAAAGAAAAAAAAAAIAAAAAAAAAAgAAAAAAAAACAAAAAAAAAA= --shared-files --field-trial-handle=0,11529738456637780244,5523390376850642794,131072
+wan00802   82406   82358  0 Feb23 ?        00:01:44 /opt/google/chrome/chrome --type=utility --utility-sub-type=network.mojom.NetworkService --lang=en-US --service-sandbox-type=none --enable-crashpad --crashpad-handler-pid=82367 --enable-crash-reporter=, --change-stack-guard-on-fork=enable --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,11529738456637780244,5523390376850642794,131072 --enable-crashpad
+wan00802   82410   81417  0 Feb23 ?        00:00:00 /usr/libexec/xdg-document-portal
+wan00802   82427   81417  0 Feb23 ?        00:00:45 /usr/libexec/xdg-desktop-portal-gtk
+wan00802   82432   82380  0 Feb23 ?        00:00:08 /opt/google/chrome/chrome --type=utility --utility-sub-type=storage.mojom.StorageService --lang=en-US --service-sandbox-type=utility --enable-crashpad --crashpad-handler-pid=82367 --enable-crash-reporter=, --change-stack-guard-on-fork=enable --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,11529738456637780244,5523390376850642794,131072
+wan00802   82714   82380  0 Feb23 ?        00:00:06 /opt/google/chrome/chrome --type=renderer --enable-crashpad --crashpad-handler-pid=82367 --enable-crash-reporter=, --display-capture-permissions-policy-allowed --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=18 --launch-time-ticks=28636277647 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,11529738456637780244,5523390376850642794,131072
+wan00802   83079   81417  0 Feb23 ?        00:00:27 /usr/libexec/gnome-terminal-server
+wan00802   83118   83079  0 Feb23 pts/3    00:00:00 bash
+wan00802   97729   82358  0 Feb23 ?        00:00:10 /opt/google/chrome/chrome --type=utility --utility-sub-type=audio.mojom.AudioService --lang=en-US --service-sandbox-type=none --enable-crashpad --crashpad-handler-pid=82367 --enable-crash-reporter=, --change-stack-guard-on-fork=enable --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,11529738456637780244,5523390376850642794,131072 --enable-crashpad
+wan00802   97816   82380  0 Feb23 ?        00:00:15 /opt/google/chrome/chrome --type=renderer --enable-crashpad --crashpad-handler-pid=82367 --enable-crash-reporter=, --display-capture-permissions-policy-allowed --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=38 --launch-time-ticks=29576066700 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,11529738456637780244,5523390376850642794,131072
+wan00802   97905   81417  0 Feb23 ?        00:01:13 file-roller /home/wan00802/Downloads/course_files_export.zip
+wan00802   97921   81417  0 Feb23 ?        00:00:48 evince /home/wan00802/.cache/.fr-OmjRbj/notes/data-computing.pdf
+wan00802   97927   81417  0 Feb23 ?        00:00:00 /usr/libexec/evinced
+wan00802   99064   82380  0 Feb23 ?        00:00:08 /opt/google/chrome/chrome --type=renderer --enable-crashpad --crashpad-handler-pid=82367 --enable-crash-reporter=, --display-capture-permissions-policy-allowed --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=51 --launch-time-ticks=30004449529 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,11529738456637780244,5523390376850642794,131072
+wan00802   99150   82380  0 Feb23 ?        00:00:01 /opt/google/chrome/chrome --type=renderer --enable-crashpad --crashpad-handler-pid=82367 --enable-crash-reporter=, --display-capture-permissions-policy-allowed --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=54 --launch-time-ticks=30009068403 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,11529738456637780244,5523390376850642794,131072
+wan00802   99164   82380  0 Feb23 ?        00:00:05 /opt/google/chrome/chrome --type=renderer --enable-crashpad --crashpad-handler-pid=82367 --enable-crash-reporter=, --display-capture-permissions-policy-allowed --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=55 --launch-time-ticks=30009178806 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,11529738456637780244,5523390376850642794,131072
+wan00802   99810   82380  0 Feb23 ?        00:00:12 /opt/google/chrome/chrome --type=renderer --enable-crashpad --crashpad-handler-pid=82367 --enable-crash-reporter=, --display-capture-permissions-policy-allowed --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=88 --launch-time-ticks=30056251387 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,11529738456637780244,5523390376850642794,131072
+wan00802  100415   82380  0 Feb23 ?        00:00:24 /opt/google/chrome/chrome --type=renderer --enable-crashpad --crashpad-handler-pid=82367 --enable-crash-reporter=, --display-capture-permissions-policy-allowed --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=92 --launch-time-ticks=30287171689 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,11529738456637780244,5523390376850642794,131072
+wan00802  100492   82380  0 Feb23 ?        00:00:02 /opt/google/chrome/chrome --type=renderer --enable-crashpad --crashpad-handler-pid=82367 --enable-crash-reporter=, --display-capture-permissions-policy-allowed --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=93 --launch-time-ticks=30296462723 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,11529738456637780244,5523390376850642794,131072
+wan00802  100505   82380  0 Feb23 ?        00:00:01 /opt/google/chrome/chrome --type=renderer --enable-crashpad --crashpad-handler-pid=82367 --enable-crash-reporter=, --display-capture-permissions-policy-allowed --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=94 --launch-time-ticks=30296537110 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,11529738456637780244,5523390376850642794,131072
+wan00802  107429   82380  0 Feb23 ?        00:00:03 /opt/google/chrome/chrome --type=renderer --enable-crashpad --crashpad-handler-pid=82367 --enable-crash-reporter=, --display-capture-permissions-policy-allowed --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=116 --launch-time-ticks=31824696361 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,11529738456637780244,5523390376850642794,131072
+wan00802  107789   81449  0 Feb23 ?        00:00:00 /usr/libexec/gvfsd-network --spawner :1.3 /org/gtk/gvfs/exec_spaw/2
+wan00802  107804   81449  0 Feb23 ?        00:00:07 /usr/libexec/gvfsd-dnssd --spawner :1.3 /org/gtk/gvfs/exec_spaw/4
+wan00802  107971   81417  0 Feb23 ?        00:03:18 /usr/share/code/code --no-sandbox --unity-launch /home/wan00802/code/CSCI5105/Projects/PA1
+wan00802  107974  107971  0 Feb23 ?        00:00:00 /usr/share/code/code --type=zygote --no-sandbox
+wan00802  107997  107971  0 Feb23 ?        00:17:54 /usr/share/code/code --type=gpu-process --field-trial-handle=2142626752692379499,7870861748095272910,131072 --disable-features=LayoutNG,PictureInPicture,SpareRendererForSitePerProcess --disable-color-correct-rendering --no-sandbox --gpu-preferences=KAAAAAAAAAAgAAAgAAAAAAAAYAAAAAAAEAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAA --service-request-channel-token=11866104508022510068
+wan00802  108013  107971  0 Feb23 ?        00:00:06 /usr/share/code/code --type=utility --field-trial-handle=2142626752692379499,7870861748095272910,131072 --disable-features=LayoutNG,PictureInPicture,SpareRendererForSitePerProcess --lang=en-US --service-sandbox-type=network --no-sandbox --standard-schemes --secure-schemes=vscode-resource --bypasscsp-schemes --cors-schemes=vscode-resource --fetch-schemes=vscode-resource --service-worker-schemes --service-request-channel-token=6786414784547917366 --shared-files=v8_context_snapshot_data:100,v8_natives_data:101
+wan00802  108028  107971  0 Feb23 ?        00:13:28 /usr/share/code/code --type=renderer --disable-color-correct-rendering --no-sandbox --field-trial-handle=2142626752692379499,7870861748095272910,131072 --disable-features=LayoutNG,PictureInPicture,SpareRendererForSitePerProcess --lang=en-US --standard-schemes --secure-schemes=vscode-resource --bypasscsp-schemes --cors-schemes=vscode-resource --fetch-schemes=vscode-resource --service-worker-schemes --app-path=/usr/share/code/resources/app --node-integration --webview-tag --no-sandbox --no-zygote --background-color=#1e1e1e --num-raster-threads=4 --enable-main-frame-before-activation --service-request-channel-token=15983476631243432111 --renderer-client-id=5 --no-v8-untrusted-code-mitigations --shared-files=v8_context_snapshot_data:100,v8_natives_data:101
+wan00802  108084  108028  0 Feb23 ?        00:02:02 /usr/share/code/code --inspect-port=0 /usr/share/code/resources/app/out/bootstrap-fork --type=extensionHost
+wan00802  108097  108028  0 Feb23 ?        00:00:05 /usr/share/code/code /usr/share/code/resources/app/out/bootstrap-fork --type=watcherService
+wan00802  108130  107971  0 Feb23 ?        00:00:44 /usr/share/code/code --type=renderer --disable-color-correct-rendering --no-sandbox --field-trial-handle=2142626752692379499,7870861748095272910,131072 --disable-features=LayoutNG,PictureInPicture,SpareRendererForSitePerProcess --lang=en-US --standard-schemes --secure-schemes=vscode-resource --bypasscsp-schemes --cors-schemes=vscode-resource --fetch-schemes=vscode-resource --service-worker-schemes --app-path=/usr/share/code/resources/app --node-integration --no-sandbox --no-zygote --background-color=#1e1e1e --disable-blink-features=Auxclick --num-raster-threads=4 --enable-main-frame-before-activation --service-request-channel-token=18138470344391505702 --renderer-client-id=7 --no-v8-untrusted-code-mitigations --shared-files=v8_context_snapshot_data:100,v8_natives_data:101
+wan00802  108361   82380  0 Feb23 ?        00:00:03 /opt/google/chrome/chrome --type=renderer --enable-crashpad --crashpad-handler-pid=82367 --enable-crash-reporter=, --display-capture-permissions-policy-allowed --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=117 --launch-time-ticks=32067591242 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,11529738456637780244,5523390376850642794,131072
+wan00802  108376   82380  0 Feb23 ?        00:00:05 /opt/google/chrome/chrome --type=renderer --enable-crashpad --crashpad-handler-pid=82367 --enable-crash-reporter=, --display-capture-permissions-policy-allowed --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=118 --launch-time-ticks=32067674425 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,11529738456637780244,5523390376850642794,131072
+wan00802  108842   81417  0 Feb23 ?        00:01:14 /usr/bin/nautilus --gapplication-service
+wan00802  108935   81449  0 Feb23 ?        00:00:18 /usr/libexec/gvfsd-recent --spawner :1.3 /org/gtk/gvfs/exec_spaw/5
+wan00802  109453   83079  0 Feb23 pts/2    00:00:00 bash
+wan00802  113213  107971  0 Feb23 ?        00:02:11 /usr/share/code/code --type=renderer --disable-color-correct-rendering --no-sandbox --field-trial-handle=2142626752692379499,7870861748095272910,131072 --disable-features=LayoutNG,PictureInPicture,SpareRendererForSitePerProcess --lang=en-US --standard-schemes --secure-schemes=vscode-resource --bypasscsp-schemes --cors-schemes=vscode-resource --fetch-schemes=vscode-resource --service-worker-schemes --app-path=/usr/share/code/resources/app --node-integration --webview-tag --no-sandbox --no-zygote --background-color=#1e1e1e --num-raster-threads=4 --enable-main-frame-before-activation --service-request-channel-token=16499869479022457345 --renderer-client-id=11 --no-v8-untrusted-code-mitigations --shared-files=v8_context_snapshot_data:100,v8_natives_data:101
+wan00802  113246  113213  0 Feb23 ?        00:01:49 /usr/share/code/code --inspect-port=0 /usr/share/code/resources/app/out/bootstrap-fork --type=extensionHost
+wan00802  113259  113213  0 Feb23 ?        00:00:05 /usr/share/code/code /usr/share/code/resources/app/out/bootstrap-fork --type=watcherService
+wan00802  113881   83079  0 Feb23 pts/4    00:00:00 bash
+wan00802  113996   82380  0 Feb23 ?        00:09:26 /opt/google/chrome/chrome --type=renderer --enable-crashpad --crashpad-handler-pid=82367 --enable-crash-reporter=, --display-capture-permissions-policy-allowed --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=127 --launch-time-ticks=32756517854 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,11529738456637780244,5523390376850642794,131072
+wan00802  114072   82380  0 Feb23 ?        00:00:13 /opt/google/chrome/chrome --type=renderer --enable-crashpad --crashpad-handler-pid=82367 --enable-crash-reporter=, --display-capture-permissions-policy-allowed --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=130 --launch-time-ticks=32773362222 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,11529738456637780244,5523390376850642794,131072
+wan00802  114392   82380  0 Feb23 ?        00:19:47 /opt/google/chrome/chrome --type=renderer --enable-crashpad --crashpad-handler-pid=82367 --enable-crash-reporter=, --display-capture-permissions-policy-allowed --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=137 --launch-time-ticks=32838313808 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,11529738456637780244,5523390376850642794,131072
+wan00802  114447   82380  0 Feb23 ?        00:00:02 /opt/google/chrome/chrome --type=renderer --enable-crashpad --crashpad-handler-pid=82367 --enable-crash-reporter=, --display-capture-permissions-policy-allowed --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=138 --launch-time-ticks=32854158565 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,11529738456637780244,5523390376850642794,131072
+wan00802  114518   82380  0 Feb23 ?        00:00:42 /opt/google/chrome/chrome --type=renderer --enable-crashpad --crashpad-handler-pid=82367 --enable-crash-reporter=, --display-capture-permissions-policy-allowed --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=140 --launch-time-ticks=32859300466 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,11529738456637780244,5523390376850642794,131072
+wan00802  114531   82380  0 Feb23 ?        00:00:02 /opt/google/chrome/chrome --type=renderer --enable-crashpad --crashpad-handler-pid=82367 --enable-crash-reporter=, --display-capture-permissions-policy-allowed --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=141 --launch-time-ticks=32859503884 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,11529738456637780244,5523390376850642794,131072
+wan00802  114596   82380  0 Feb23 ?        00:00:02 /opt/google/chrome/chrome --type=renderer --enable-crashpad --crashpad-handler-pid=82367 --enable-crash-reporter=, --display-capture-permissions-policy-allowed --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=146 --launch-time-ticks=32859751468 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,11529738456637780244,5523390376850642794,131072
+wan00802  114613   82380  0 Feb23 ?        00:00:01 /opt/google/chrome/chrome --type=renderer --enable-crashpad --crashpad-handler-pid=82367 --enable-crash-reporter=, --display-capture-permissions-policy-allowed --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=147 --launch-time-ticks=32859990208 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,11529738456637780244,5523390376850642794,131072
+wan00802  114651   82380  0 Feb23 ?        00:00:02 /opt/google/chrome/chrome --type=renderer --enable-crashpad --crashpad-handler-pid=82367 --enable-crash-reporter=, --display-capture-permissions-policy-allowed --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=148 --launch-time-ticks=32860758638 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,11529738456637780244,5523390376850642794,131072
+wan00802  114689   82380  0 Feb23 ?        00:00:10 /opt/google/chrome/chrome --type=renderer --enable-crashpad --crashpad-handler-pid=82367 --enable-crash-reporter=, --display-capture-permissions-policy-allowed --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=149 --launch-time-ticks=32861030821 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,11529738456637780244,5523390376850642794,131072
+wan00802  114706   82380  0 Feb23 ?        00:00:05 /opt/google/chrome/chrome --type=renderer --enable-crashpad --crashpad-handler-pid=82367 --enable-crash-reporter=, --display-capture-permissions-policy-allowed --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=150 --launch-time-ticks=32861278581 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,11529738456637780244,5523390376850642794,131072
+wan00802  114729   82380  0 Feb23 ?        00:00:01 /opt/google/chrome/chrome --type=renderer --enable-crashpad --crashpad-handler-pid=82367 --enable-crash-reporter=, --display-capture-permissions-policy-allowed --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=151 --launch-time-ticks=32862057777 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,11529738456637780244,5523390376850642794,131072
+wan00802  114735   82380  0 Feb23 ?        00:00:01 /opt/google/chrome/chrome --type=renderer --enable-crashpad --crashpad-handler-pid=82367 --enable-crash-reporter=, --display-capture-permissions-policy-allowed --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=152 --launch-time-ticks=32862060743 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,11529738456637780244,5523390376850642794,131072
+wan00802  114750   82380  0 Feb23 ?        00:00:02 /opt/google/chrome/chrome --type=renderer --enable-crashpad --crashpad-handler-pid=82367 --enable-crash-reporter=, --display-capture-permissions-policy-allowed --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=153 --launch-time-ticks=32862064720 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,11529738456637780244,5523390376850642794,131072
+wan00802  114763   82380  0 Feb23 ?        00:00:02 /opt/google/chrome/chrome --type=renderer --enable-crashpad --crashpad-handler-pid=82367 --enable-crash-reporter=, --display-capture-permissions-policy-allowed --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=154 --launch-time-ticks=32862069615 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,11529738456637780244,5523390376850642794,131072
+wan00802  114776   82380  0 Feb23 ?        00:00:02 /opt/google/chrome/chrome --type=renderer --enable-crashpad --crashpad-handler-pid=82367 --enable-crash-reporter=, --display-capture-permissions-policy-allowed --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=155 --launch-time-ticks=32862072896 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,11529738456637780244,5523390376850642794,131072
+wan00802  114789   82380  0 Feb23 ?        00:00:01 /opt/google/chrome/chrome --type=renderer --enable-crashpad --crashpad-handler-pid=82367 --enable-crash-reporter=, --display-capture-permissions-policy-allowed --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=156 --launch-time-ticks=32862076235 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,11529738456637780244,5523390376850642794,131072
+wan00802  114802   82380  0 Feb23 ?        00:00:01 /opt/google/chrome/chrome --type=renderer --enable-crashpad --crashpad-handler-pid=82367 --enable-crash-reporter=, --display-capture-permissions-policy-allowed --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=157 --launch-time-ticks=32862079591 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,11529738456637780244,5523390376850642794,131072
+wan00802  114824   82380  0 Feb23 ?        00:00:01 /opt/google/chrome/chrome --type=renderer --enable-crashpad --crashpad-handler-pid=82367 --enable-crash-reporter=, --display-capture-permissions-policy-allowed --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=158 --launch-time-ticks=32862337089 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,11529738456637780244,5523390376850642794,131072
+wan00802  114842   82380  0 Feb23 ?        00:00:01 /opt/google/chrome/chrome --type=renderer --enable-crashpad --crashpad-handler-pid=82367 --enable-crash-reporter=, --display-capture-permissions-policy-allowed --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=159 --launch-time-ticks=32862852574 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,11529738456637780244,5523390376850642794,131072
+wan00802  114875   82380  0 Feb23 ?        00:00:02 /opt/google/chrome/chrome --type=renderer --enable-crashpad --crashpad-handler-pid=82367 --enable-crash-reporter=, --display-capture-permissions-policy-allowed --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=160 --launch-time-ticks=32864060272 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,11529738456637780244,5523390376850642794,131072
+wan00802  114907   82380  0 Feb23 ?        00:00:02 /opt/google/chrome/chrome --type=renderer --enable-crashpad --crashpad-handler-pid=82367 --enable-crash-reporter=, --display-capture-permissions-policy-allowed --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=162 --launch-time-ticks=32864580754 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,11529738456637780244,5523390376850642794,131072
+wan00802  114927   82380  0 Feb23 ?        00:00:02 /opt/google/chrome/chrome --type=renderer --enable-crashpad --crashpad-handler-pid=82367 --enable-crash-reporter=, --display-capture-permissions-policy-allowed --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=164 --launch-time-ticks=32864590952 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,11529738456637780244,5523390376850642794,131072
+wan00802  114940   82380  0 Feb23 ?        00:00:01 /opt/google/chrome/chrome --type=renderer --enable-crashpad --crashpad-handler-pid=82367 --enable-crash-reporter=, --display-capture-permissions-policy-allowed --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=165 --launch-time-ticks=32864594646 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,11529738456637780244,5523390376850642794,131072
+wan00802  114979   82380  0 Feb23 ?        00:00:01 /opt/google/chrome/chrome --type=renderer --enable-crashpad --crashpad-handler-pid=82367 --enable-crash-reporter=, --display-capture-permissions-policy-allowed --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=168 --launch-time-ticks=32864611710 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,11529738456637780244,5523390376850642794,131072
+wan00802  115018   82380  0 Feb23 ?        00:00:01 /opt/google/chrome/chrome --type=renderer --enable-crashpad --crashpad-handler-pid=82367 --enable-crash-reporter=, --display-capture-permissions-policy-allowed --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=171 --launch-time-ticks=32864625566 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,11529738456637780244,5523390376850642794,131072
+wan00802  115079   82380  0 Feb23 ?        00:00:01 /opt/google/chrome/chrome --type=renderer --enable-crashpad --crashpad-handler-pid=82367 --enable-crash-reporter=, --display-capture-permissions-policy-allowed --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=175 --launch-time-ticks=32864826194 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,11529738456637780244,5523390376850642794,131072
+wan00802  115126   82380  0 Feb23 ?        00:00:01 /opt/google/chrome/chrome --type=renderer --enable-crashpad --crashpad-handler-pid=82367 --enable-crash-reporter=, --display-capture-permissions-policy-allowed --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=179 --launch-time-ticks=32864969419 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,11529738456637780244,5523390376850642794,131072
+wan00802  115148   82380  0 Feb23 ?        00:00:01 /opt/google/chrome/chrome --type=renderer --enable-crashpad --crashpad-handler-pid=82367 --enable-crash-reporter=, --display-capture-permissions-policy-allowed --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=180 --launch-time-ticks=32865492134 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,11529738456637780244,5523390376850642794,131072
+wan00802  115174   82380  0 Feb23 ?        00:00:01 /opt/google/chrome/chrome --type=renderer --enable-crashpad --crashpad-handler-pid=82367 --enable-crash-reporter=, --display-capture-permissions-policy-allowed --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=182 --launch-time-ticks=32865527225 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,11529738456637780244,5523390376850642794,131072
+wan00802  115187   82380  0 Feb23 ?        00:00:01 /opt/google/chrome/chrome --type=renderer --enable-crashpad --crashpad-handler-pid=82367 --enable-crash-reporter=, --display-capture-permissions-policy-allowed --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=183 --launch-time-ticks=32865554900 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,11529738456637780244,5523390376850642794,131072
+wan00802  116196  108028  0 Feb23 pts/1    00:00:00 /bin/bash
+wan00802  116688  116196  0 Feb23 pts/1    00:00:01 python3 imageProcess.py
+wan00802  116812  116196  0 Feb23 pts/1    00:00:05 python3 imageProcess.py
+wan00802  117090   82380  0 Feb23 ?        00:00:03 /opt/google/chrome/chrome --type=renderer --enable-crashpad --crashpad-handler-pid=82367 --enable-crash-reporter=, --display-capture-permissions-policy-allowed --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=193 --launch-time-ticks=33258178000 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,11529738456637780244,5523390376850642794,131072
+wan00802  117169   82380  0 Feb23 ?        00:00:13 /opt/google/chrome/chrome --type=renderer --enable-crashpad --crashpad-handler-pid=82367 --enable-crash-reporter=, --display-capture-permissions-policy-allowed --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=195 --launch-time-ticks=33268566204 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,11529738456637780244,5523390376850642794,131072
+wan00802  117197   82380  0 Feb23 ?        00:00:51 /opt/google/chrome/chrome --type=renderer --enable-crashpad --crashpad-handler-pid=82367 --enable-crash-reporter=, --display-capture-permissions-policy-allowed --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=196 --launch-time-ticks=33280467924 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,11529738456637780244,5523390376850642794,131072
+wan00802  117288   82380  0 Feb23 ?        00:00:01 /opt/google/chrome/chrome --type=renderer --enable-crashpad --crashpad-handler-pid=82367 --enable-crash-reporter=, --display-capture-permissions-policy-allowed --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=198 --launch-time-ticks=33300706595 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,11529738456637780244,5523390376850642794,131072
+wan00802  117883  108084  0 Feb23 ?        00:00:08 /usr/share/code/code /usr/share/code/resources/app/extensions/json-language-features/server/dist/jsonServerMain --node-ipc --clientProcessId=108084
+wan00802  117885  113246  0 Feb23 ?        00:00:08 /usr/share/code/code /usr/share/code/resources/app/extensions/json-language-features/server/dist/jsonServerMain --node-ipc --clientProcessId=113246
+wan00802  118143  108084  0 Feb23 ?        00:00:09 /usr/bin/python3 /home/wan00802/.vscode/extensions/ms-python.python-2020.6.91350/pythonFiles/pyvsc-run-isolated.py /home/wan00802/.vscode/extensions/ms-python.python-2020.6.91350/pythonFiles/completion.py
+wan00802  118148  113246  0 Feb23 ?        00:00:01 /usr/bin/python3 /home/wan00802/.vscode/extensions/ms-python.python-2020.6.91350/pythonFiles/pyvsc-run-isolated.py /home/wan00802/.vscode/extensions/ms-python.python-2020.6.91350/pythonFiles/completion.py
+wan00802  118162  118148  0 Feb23 ?        00:00:00 /usr/bin/python3 /home/wan00802/.vscode/extensions/ms-python.python-2020.6.91350/pythonFiles/lib/python/jedi/inference/compiled/subprocess/__main__.py /home/wan00802/.vscode/extensions/ms-python.python-2020.6.91350/pythonFiles/lib/python 3.8.10
+wan00802  121760   81417  0 Feb23 ?        00:00:23 eog /home/wan00802/Downloads/data/output_dir/baboon.jpg
+wan00802  127607  116196  0 Feb23 pts/1    00:00:01 python3 imageProcess.py
+wan00802  128879  118143  0 Feb23 ?        00:00:02 /usr/bin/python3 /home/wan00802/.vscode/extensions/ms-python.python-2020.6.91350/pythonFiles/lib/python/jedi/inference/compiled/subprocess/__main__.py /home/wan00802/.vscode/extensions/ms-python.python-2020.6.91350/pythonFiles/lib/python 3.8.10
+wan00802  129708  118148  0 Feb23 ?        00:00:00 /usr/bin/python3 /home/wan00802/.vscode/extensions/ms-python.python-2020.6.91350/pythonFiles/lib/python/jedi/inference/compiled/subprocess/__main__.py /home/wan00802/.vscode/extensions/ms-python.python-2020.6.91350/pythonFiles/lib/python 3.8.10
+wan00802  132570  118143  0 Feb23 ?        00:00:00 /usr/bin/python3 /home/wan00802/.vscode/extensions/ms-python.python-2020.6.91350/pythonFiles/lib/python/jedi/inference/compiled/subprocess/__main__.py /home/wan00802/.vscode/extensions/ms-python.python-2020.6.91350/pythonFiles/lib/python 3.8.10
+root      412291    1141  0 Feb24 ?        00:00:00 gdm-session-worker [pam/gdm-launch-environment]
+gdm       412308       1  0 Feb24 ?        00:00:02 /lib/systemd/systemd --user
+gdm       412309  412308  0 Feb24 ?        00:00:00 (sd-pam)
+gdm       412316  412308  0 Feb24 ?        00:00:00 /usr/bin/pulseaudio --daemonize=no --log-target=journal
+gdm       412318  412308  0 Feb24 ?        00:00:00 /usr/libexec/tracker-miner-fs
+gdm       412321  412308  0 Feb24 ?        00:00:00 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+gdm       412322  412291  0 Feb24 tty1     00:00:00 /usr/lib/gdm3/gdm-wayland-session dbus-run-session -- gnome-session --autostart /usr/share/gdm/greeter/autostart
+gdm       412339  412322  0 Feb24 tty1     00:00:00 dbus-run-session -- gnome-session --autostart /usr/share/gdm/greeter/autostart
+gdm       412340  412339  0 Feb24 tty1     00:00:00 dbus-daemon --nofork --print-address 4 --session
+gdm       412341  412308  0 Feb24 ?        00:00:00 /usr/libexec/gvfsd
+gdm       412343  412339  0 Feb24 tty1     00:00:00 /usr/lib/gnome-session/gnome-session-binary --autostart /usr/share/gdm/greeter/autostart
+gdm       412348  412308  0 Feb24 ?        00:00:00 /usr/libexec/gvfsd-fuse /run/user/126/gvfs -f -o big_writes
+gdm       412355  412308  0 Feb24 ?        00:00:02 /usr/libexec/gvfs-udisks2-volume-monitor
+gdm       412378  412343  0 Feb24 tty1     00:00:54 /usr/bin/gnome-shell
+gdm       412382  412308  0 Feb24 ?        00:00:00 /usr/libexec/gvfs-goa-volume-monitor
+gdm       412387  412308  0 Feb24 ?        00:00:00 /usr/libexec/goa-daemon
+gdm       412398  412308  0 Feb24 ?        00:00:03 /usr/libexec/goa-identity-service
+gdm       412404  412308  0 Feb24 ?        00:00:00 /usr/libexec/gvfs-mtp-volume-monitor
+gdm       412409  412308  0 Feb24 ?        00:00:05 /usr/libexec/gvfs-afc-volume-monitor
+gdm       412415  412308  0 Feb24 ?        00:00:00 /usr/libexec/gvfs-gphoto2-volume-monitor
+gdm       412468       1  0 Feb24 tty1     00:00:00 /usr/libexec/at-spi-bus-launcher
+gdm       412473  412468  0 Feb24 tty1     00:00:00 /usr/bin/dbus-daemon --config-file=/usr/share/defaults/at-spi2/accessibility.conf --nofork --print-address 3
+gdm       412484  412378  0 Feb24 tty1     00:00:00 /usr/bin/Xwayland :1024 -rootless -noreset -accessx -core -auth /run/user/126/.mutter-Xwaylandauth.PMU1H1 -listen 4 -listen 5 -displayfd 6 -listen 7
+gdm       412577       1  0 Feb24 tty1     00:00:00 /usr/libexec/xdg-permission-store
+gdm       412594       1  0 Feb24 tty1     00:00:00 /usr/bin/gjs /usr/share/gnome-shell/org.gnome.Shell.Notifications
+gdm       412596       1  0 Feb24 tty1     00:00:00 /usr/libexec/at-spi2-registryd --use-gnome-session
+gdm       412608  412343  0 Feb24 tty1     00:00:01 /usr/libexec/gsd-sharing
+gdm       412610  412343  0 Feb24 tty1     00:00:00 /usr/libexec/gsd-wacom
+gdm       412611  412343  0 Feb24 tty1     00:00:00 /usr/libexec/gsd-color
+gdm       412612  412343  0 Feb24 tty1     00:00:00 /usr/libexec/gsd-keyboard
+gdm       412614  412343  0 Feb24 tty1     00:00:01 /usr/libexec/gsd-print-notifications
+gdm       412617  412343  0 Feb24 tty1     00:00:00 /usr/libexec/gsd-rfkill
+gdm       412618  412343  0 Feb24 tty1     00:00:00 /usr/libexec/gsd-smartcard
+gdm       412619  412343  0 Feb24 tty1     00:00:00 /usr/libexec/gsd-xsettings
+gdm       412621  412343  0 Feb24 tty1     00:00:00 /usr/libexec/gsd-datetime
+gdm       412627  412343  0 Feb24 tty1     00:00:00 /usr/libexec/gsd-media-keys
+gdm       412629  412343  0 Feb24 tty1     00:00:00 /usr/libexec/gsd-screensaver-proxy
+gdm       412640  412343  0 Feb24 tty1     00:00:00 /usr/libexec/gsd-sound
+gdm       412645  412343  0 Feb24 tty1     00:00:00 /usr/libexec/gsd-a11y-settings
+gdm       412649  412343  0 Feb24 tty1     00:00:21 /usr/libexec/gsd-housekeeping
+gdm       412650  412343  0 Feb24 tty1     00:00:00 /usr/libexec/gsd-power
+gdm       412666       1  0 Feb24 tty1     00:00:00 /usr/libexec/gsd-printer
+gdm       412779  412378  0 Feb24 tty1     00:00:00 ibus-daemon --panel disable -r --xim
+gdm       412784  412779  0 Feb24 tty1     00:00:00 /usr/libexec/ibus-dconf
+gdm       412786       1  0 Feb24 tty1     00:00:00 /usr/libexec/ibus-x11 --kill-daemon
+gdm       412789       1  0 Feb24 tty1     00:00:00 /usr/libexec/ibus-portal
+gdm       412802  412779  0 Feb24 tty1     00:00:00 /usr/libexec/ibus-engine-simple
+root      430599       2  0 Feb24 ?        00:00:06 [kworker/8:0-events]
+root      641081       2  0 Feb25 ?        00:00:05 [kworker/12:2-mm_percpu_wq]
+root      642372       2  0 Feb25 ?        00:00:02 [kworker/14:0-events]
+root      650271       2  0 Feb25 ?        00:00:04 [kworker/1:1-events]
+root      674726       2  0 Feb25 ?        00:00:05 [kworker/11:1-events]
+root      737952       2  0 Feb25 ?        00:00:07 [kworker/5:2-events]
+root      793065       2  0 Feb25 ?        00:00:07 [kworker/4:2-events]
+root      796307    1122  0 Feb25 ?        00:00:00 sshd: song0254 [priv]
+song0254  796546       1  0 Feb25 ?        00:00:00 /lib/systemd/systemd --user
+song0254  796547  796546  0 Feb25 ?        00:00:00 (sd-pam)
+song0254  796558  796546  0 Feb25 ?        00:00:00 /usr/bin/pulseaudio --daemonize=no --log-target=journal
+song0254  796560  796546  0 Feb25 ?        00:00:00 /usr/libexec/tracker-miner-fs
+song0254  796569  796546  0 Feb25 ?        00:00:00 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+song0254  796591  796546  0 Feb25 ?        00:00:00 /usr/libexec/gvfsd
+song0254  796596  796546  0 Feb25 ?        00:00:00 /usr/libexec/gvfsd-fuse /run/user/2119656/gvfs -f -o big_writes
+song0254  796598  796546  0 Feb25 ?        00:00:00 /usr/libexec/gvfs-udisks2-volume-monitor
+song0254  796625  796546  0 Feb25 ?        00:00:00 /usr/libexec/gvfs-goa-volume-monitor
+song0254  796631  796546  0 Feb25 ?        00:00:05 /usr/libexec/goa-daemon
+song0254  796644  796546  0 Feb25 ?        00:00:01 /usr/libexec/goa-identity-service
+song0254  796651  796546  0 Feb25 ?        00:00:00 /usr/libexec/gvfs-mtp-volume-monitor
+song0254  796655  796546  0 Feb25 ?        00:00:02 /usr/libexec/gvfs-afc-volume-monitor
+song0254  796660  796546  0 Feb25 ?        00:00:00 /usr/libexec/gvfs-gphoto2-volume-monitor
+song0254  796783  796307  0 Feb25 ?        00:00:00 sshd: song0254@notty
+song0254  796886       1  0 Feb25 ?        00:00:00 csh -c  setenv THRIFT_LIB_PATH /project/song0254/csci5105/lib/thrift-0.15.0/lib/py/build/lib && setenv OPENCV_LIB_PATH /project/song0254/csci5105/lib/opencv/build/lib && setenv PROJ_PATH /project/song0254/csci5105/pa1 && cd /project/song0254/csci5105/pa1 &&  nohup ant server & 
+root      796890       2  0 Feb25 ?        00:00:00 [NFSv4 callback]
+song0254  796905  796886  0 Feb25 ?        00:02:52 /usr/bin/java -classpath /usr/share/ant/lib/ant-launcher.jar -Dant.home=/usr/share/ant -Dant.library.dir=/usr/share/ant/lib org.apache.tools.ant.launch.Launcher -cp  server
+song0254  796985  796905  0 Feb25 ?        00:01:03 /usr/lib/jvm/java-11-openjdk-amd64/bin/java -classpath /project/song0254/csci5105/pa1/lib/commons-codec-1.11.jar:/project/song0254/csci5105/pa1/lib/commons-logging-1.2.jar:/project/song0254/csci5105/pa1/lib/httpclient-4.5.10.jar:/project/song0254/csci5105/pa1/lib/httpcore-4.4.12.jar:/project/song0254/csci5105/pa1/lib/javax.annotation-api-1.3.2.jar:/project/song0254/csci5105/pa1/lib/javax.servlet-api-4.0.1.jar:/project/song0254/csci5105/pa1/lib/libthrift-0.15.0-javadoc.jar:/project/song0254/csci5105/pa1/lib/libthrift-0.15.0-sources.jar:/project/song0254/csci5105/pa1/lib/libthrift-0.15.0.jar:/project/song0254/csci5105/pa1/lib/log4j-1.2.17.jar:/project/song0254/csci5105/pa1/lib/opencv-455.jar:/project/song0254/csci5105/pa1/lib/slf4j-api-1.7.28.jar:/project/song0254/csci5105/pa1/lib/slf4j-log4j12-1.7.28.jar:/project/song0254/csci5105/pa1/src:/project/song0254/csci5105/pa1/build:/project/song0254/csci5105/pa1/pa1.jar Server
+song0254  799455  796546  0 Feb25 ?        00:00:05 /usr/libexec/tracker-store
+song0254  799580  796546  0 Feb25 ?        00:00:00 /usr/libexec/gvfsd-metadata
+song0254  801185  796546  0 Feb25 ?        00:00:00 /usr/bin/gnome-keyring-daemon --start --foreground --components=secrets
+www-data  808987    1158  0 00:00 ?        00:00:00 /usr/sbin/apache2 -k start
+root      808988       1  0 00:00 ?        00:00:00 /usr/sbin/cupsd -l
+root      808989       1  0 00:00 ?        00:00:02 /usr/sbin/cups-browsed
+www-data  808998    1158  0 00:00 ?        00:00:00 /usr/sbin/apache2 -k start
+www-data  808999    1158  0 00:00 ?        00:00:00 /usr/sbin/apache2 -k start
+root      848805       2  0 02:39 ?        00:00:00 [kworker/12:0-cgroup_destroy]
+root      852280       1  0 03:02 ?        00:00:01 /usr/libexec/karl --pidfile /var/run/karl.pid
+root      852721       2  0 03:02 ?        00:00:03 [kworker/6:1-events]
+root      852726       2  0 03:02 ?        00:00:02 [kworker/0:0-events]
+root      875630       2  0 04:35 ?        00:00:01 [kworker/9:0-events]
+root      910443       2  0 07:30 ?        00:00:02 [kworker/2:2-events]
+root      920593       2  0 08:08 ?        00:00:00 [kworker/11:2-cgroup_destroy]
+root      935640       2  0 09:31 ?        00:00:00 [kworker/13:0-events]
+root      946792       2  0 10:18 ?        00:00:00 [kworker/14:2-cgroup_destroy]
+root      949031       2  0 10:32 ?        00:00:00 [kworker/u33:0-xprtiod]
+root      964525       2  0 11:38 ?        00:00:00 [kworker/10:0-cgroup_destroy]
+wan00802  972913   81449  0 12:27 ?        00:00:00 /usr/libexec/gvfsd-google --spawner :1.3 /org/gtk/gvfs/exec_spaw/6
+root      983428       2  0 13:08 ?        00:00:00 [kworker/4:0-cgroup_destroy]
+root      984132       2  0 13:14 ?        00:00:00 [kworker/5:1-cgroup_destroy]
+root      985268       2  0 13:21 ?        00:00:00 [kworker/1:0-events]
+root      985612    1122  0 13:24 ?        00:00:00 sshd: kim00967 [priv]
+kim00967  985646       1  0 13:24 ?        00:00:00 /lib/systemd/systemd --user
+kim00967  985647  985646  0 13:24 ?        00:00:00 (sd-pam)
+kim00967  985652  985646  0 13:24 ?        00:00:00 /usr/bin/pulseaudio --daemonize=no --log-target=journal
+kim00967  985654  985646  0 13:24 ?        00:00:00 /usr/libexec/tracker-miner-fs
+root      985656       2  0 13:24 ?        00:00:00 [kworker/0:1-events]
+kim00967  985664  985646  0 13:24 ?        00:00:00 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+kim00967  985686  985646  0 13:24 ?        00:00:00 /usr/libexec/gvfsd
+kim00967  985691  985646  0 13:24 ?        00:00:00 /usr/libexec/gvfsd-fuse /run/user/2463577/gvfs -f -o big_writes
+kim00967  985693  985646  0 13:24 ?        00:00:00 /usr/libexec/gvfs-udisks2-volume-monitor
+kim00967  985720  985646  0 13:24 ?        00:00:00 /usr/libexec/gvfs-goa-volume-monitor
+kim00967  985725  985646  0 13:24 ?        00:00:00 /usr/libexec/goa-daemon
+kim00967  985740  985612  0 13:24 ?        00:00:00 sshd: kim00967@pts/6
+kim00967  985747  985646  0 13:24 ?        00:00:00 /usr/libexec/goa-identity-service
+kim00967  985753  985646  0 13:24 ?        00:00:00 /usr/libexec/gvfs-mtp-volume-monitor
+kim00967  985757  985646  0 13:24 ?        00:00:00 /usr/libexec/gvfs-afc-volume-monitor
+kim00967  985762  985646  0 13:24 ?        00:00:00 /usr/libexec/gvfs-gphoto2-volume-monitor
+kim00967  985769  985740  0 13:24 pts/6    00:00:00 -bash
+root      992348       2  0 13:56 ?        00:00:00 [kworker/3:0-events]
+root      992649       2  0 13:59 ?        00:00:00 [kworker/u32:2-rpciod]
+root      996888       2  0 14:08 ?        00:00:00 [kworker/9:1-cgroup_destroy]
+root      997185       2  0 14:09 ?        00:00:00 [kworker/7:1-events]
+root      999053       2  0 14:26 ?        00:00:00 [kworker/u32:0-rpciod]
+root     1002899       2  0 14:34 ?        00:00:00 [kworker/8:2-cgroup_destroy]
+root     1003393       2  0 14:38 ?        00:00:00 [kworker/3:1-cgroup_destroy]
+root     1003424       2  0 14:38 ?        00:00:00 [kworker/u32:5-nfsiod]
+root     1003900       2  0 14:42 ?        00:00:00 [kworker/2:0-events]
+root     1004280       2  0 14:46 ?        00:00:00 [kworker/7:0-mm_percpu_wq]
+root     1004480       2  0 14:48 ?        00:00:00 [kworker/15:2-mm_percpu_wq]
+root     1005194       2  0 14:52 ?        00:00:00 [kworker/u33:2-xprtiod]
+root     1005265       2  0 14:53 ?        00:00:00 [kworker/u32:1-rpciod]
+postfix  1005477    2346  0 14:55 ?        00:00:00 pickup -l -t unix -u -c
+root     1005821       2  0 14:58 ?        00:00:00 [kworker/u32:4-rpciod]
+root     1005852       2  0 14:58 ?        00:00:00 [kworker/6:2-events]
+root     1006163       2  0 15:01 ?        00:00:00 [kworker/u33:1-xprtiod]
+kim00967 1009903  985646  0 15:03 ?        00:00:00 /usr/lib/x86_64-linux-gnu/tumbler-1/tumblerd
+root     1010213    1122  0 15:05 ?        00:00:00 sshd: kim00967 [priv]
+kim00967 1010263 1010213  0 15:05 ?        00:00:00 sshd: kim00967@notty
+kim00967 1010280       1  0 15:05 ?        00:00:00 csh -c  setenv PROJ_PATH /home/kim00967/csci5105/assignments/P1 && setenv THRIFT_LIB_PATH /project/kim00967/thrift-0.15.0/compiler/cpp/thrift && setenv OPENCV_LIB_PATH /project/kim00967/opencv/build/lib && cd /home/kim00967/csci5105/assignments/P1 &&  nohup ant server & 
+kim00967 1010281 1010280  0 15:05 ?        00:00:02 /usr/bin/java -classpath /usr/share/ant/lib/ant-launcher.jar -Dant.home=/usr/share/ant -Dant.library.dir=/usr/share/ant/lib org.apache.tools.ant.launch.Launcher -cp  server
+kim00967 1010340 1010281  0 15:05 ?        00:00:00 /usr/lib/jvm/java-11-openjdk-amd64/bin/java -Djava.library.path=/project/kim00967/opencv/build/lib -classpath /project/kim00967/thrift-0.15.0/lib/java/build/libs/libthrift-0.15.0.jar:/project/kim00967/thrift-0.15.0/lib/java/build/deps/commons-codec-1.11.jar:/project/kim00967/thrift-0.15.0/lib/java/build/deps/commons-logging-1.2.jar:/project/kim00967/thrift-0.15.0/lib/java/build/deps/httpclient-4.5.10.jar:/project/kim00967/thrift-0.15.0/lib/java/build/deps/httpcore-4.4.12.jar:/project/kim00967/thrift-0.15.0/lib/java/build/deps/javax.annotation-api-1.3.2.jar:/project/kim00967/thrift-0.15.0/lib/java/build/deps/javax.servlet-api-4.0.1.jar:/project/kim00967/thrift-0.15.0/lib/java/build/deps/log4j-1.2.17.jar:/project/kim00967/thrift-0.15.0/lib/java/build/deps/slf4j-api-1.7.28.jar:/project/kim00967/thrift-0.15.0/lib/java/build/deps/slf4j-log4j12-1.7.28.jar:/project/kim00967/opencv/build/bin/opencv-455.jar:/home/kim00967/csci5105/assignments/P1/computenode/gen-java:/home/kim00967/csci5105/assignments/P1/computenode/src:/home/kim00967/csci5105/assignments/P1/build Server autograder/autograder/machine.txt
+root     1010543       2  0 15:06 ?        00:00:00 [kworker/u32:3-rpciod]
+root     1010791       2  0 15:08 ?        00:00:00 [kworker/3:2-cgroup_destroy]
+kim00967 1011094  985646  0 15:09 ?        00:00:00 /usr/libexec/tracker-store
+kim00967 1011273  985769  0 15:10 pts/6    00:00:00 ps -ef

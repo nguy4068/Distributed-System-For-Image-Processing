@@ -1,71 +1,27 @@
-Starting a multithreaded compute node server...
-Received request
-Received request
-/home/nguy4068/CSCI5105/P1/inputdir/aloeL.jpg
-/home/nguy4068/CSCI5105/P1/inputdir/Megamind_bugy.avi
-Received request
-Received request
-/home/nguy4068/CSCI5105/P1/inputdir/HappyFish.jpg
-/home/nguy4068/CSCI5105/P1/inputdir/apple.jpg
-/home/nguy4068/CSCI5105/P1/inputdir/HappyFish.jpg
-/home/nguy4068/CSCI5105/P1/inputdir/apple.jpg
-/home/nguy4068/CSCI5105/P1/inputdir/Megamind_bugy.avi
-HappyFish.jpg
-Megamind_bugy.avi
-/home/nguy4068/CSCI5105/P1/inputdir/aloeL.jpg
-apple.jpg
-aloeL.jpg
-Received request
-/home/nguy4068/CSCI5105/P1/inputdir/fruits.jpg
-/home/nguy4068/CSCI5105/P1/inputdir/fruits.jpg
-fruits.jpg
-Received request
-/home/nguy4068/CSCI5105/P1/inputdir/squirrel_cls.jpg
-/home/nguy4068/CSCI5105/P1/inputdir/squirrel_cls.jpg
-squirrel_cls.jpg
-Received request
-/home/nguy4068/CSCI5105/P1/inputdir/baboon.jpg
-/home/nguy4068/CSCI5105/P1/inputdir/baboon.jpg
-baboon.jpg
-Received request
-/home/nguy4068/CSCI5105/P1/inputdir/lena.jpg
-/home/nguy4068/CSCI5105/P1/inputdir/lena.jpg
-lena.jpg
-log4j:WARN No appenders could be found for logger (org.apache.thrift.server.TThreadPoolServer).
-log4j:WARN No appenders could be found for logger (org.apache.thrift.server.TThreadPoolServer).
-log4j:WARN Please initialize the log4j system properly.
+org.apache.thrift.transport.TTransportException:log4j:WARN No appenders could be found for logger (org.apache.thrift.ProcessFunction).
 log4j:WARN Please initialize the log4j system properly.
 log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
-log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
 Received request
-/home/nguy4068/CSCI5105/P1/inputdir/apple.jpg
+/home/kim00967/csci5105/assignments/P1/input_dir/lena.jpg
 Received request
-/home/nguy4068/CSCI5105/P1/inputdir/aloeL.jpg
 Received request
-/home/nguy4068/CSCI5105/P1/inputdir/HappyFish.jpg
+/home/kim00967/csci5105/assignments/P1/input_dir/Megamind_bugy.avi
 Received request
-/home/nguy4068/CSCI5105/P1/inputdir/Megamind_bugy.avi
-/home/nguy4068/CSCI5105/P1/inputdir/aloeL.jpg
-/home/nguy4068/CSCI5105/P1/inputdir/Megamind_bugy.avi
-/home/nguy4068/CSCI5105/P1/inputdir/apple.jpg
-/home/nguy4068/CSCI5105/P1/inputdir/HappyFish.jpg
-HappyFish.jpg
-apple.jpg
+/home/kim00967/csci5105/assignments/P1/input_dir/HappyFish.jpg
+/home/kim00967/csci5105/assignments/P1/input_dir/squirrel_cls.jpg
+lena.jpg
 Megamind_bugy.avi
-aloeL.jpg
-Received request
-/home/nguy4068/CSCI5105/P1/inputdir/fruits.jpg
-/home/nguy4068/CSCI5105/P1/inputdir/fruits.jpg
-fruits.jpg
-Received request
-/home/nguy4068/CSCI5105/P1/inputdir/squirrel_cls.jpg
-/home/nguy4068/CSCI5105/P1/inputdir/squirrel_cls.jpg
+HappyFish.jpg
 squirrel_cls.jpg
 Received request
-/home/nguy4068/CSCI5105/P1/inputdir/baboon.jpg
-/home/nguy4068/CSCI5105/P1/inputdir/baboon.jpg
-baboon.jpg
+/home/kim00967/csci5105/assignments/P1/input_dir/fruits.jpg
+fruits.jpg
 Received request
-/home/nguy4068/CSCI5105/P1/inputdir/lena.jpg
-/home/nguy4068/CSCI5105/P1/inputdir/lena.jpg
-lena.jpg
+/home/kim00967/csci5105/assignments/P1/input_dir/aloeL.jpg
+Received request
+/home/kim00967/csci5105/assignments/P1/input_dir/apple.jpg
+aloeL.jpg
+apple.jpg
+Received request
+/home/kim00967/csci5105/assignments/P1/input_dir/baboon.jpg
+baboon.jpg

@@ -5,6 +5,7 @@ import org.apache.thrift.server.TSimpleServer;
 import org.apache.thrift.transport.TServerSocket;
 import org.apache.thrift.transport.TServerTransport;
 import cpnode.*;
+
 public class ComputeNodeServer{
 	public static ComputeNodeServiceHandler computeNodeHandler;
 	public static ComputeNodeService.Processor processor;
@@ -25,7 +26,7 @@ public class ComputeNodeServer{
 	}
 	public static void simple(ComputeNodeService.Processor processor){
 		try{
-			TServerTransport serverTransport = new TServerSocket(9090);
+			TServerTransport serverTransport = new TServerSocket(8282);
 			TThreadPoolServer server = new TThreadPoolServer(new TThreadPoolServer.Args(serverTransport).processor(processor));
 			System.out.println("Starting a multithreaded compute node server...");
 			server.serve();

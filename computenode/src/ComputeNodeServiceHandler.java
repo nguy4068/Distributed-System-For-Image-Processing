@@ -10,11 +10,12 @@ import org.opencv.imgcodecs.Imgcodecs;
 import org.opencv.imgproc.Imgproc;
 
 public class ComputeNodeServiceHandler implements ComputeNodeService.Iface{
-        private static final Size BLUR_SIZE = new Size(3,3);
-        private static final int RATIO = 3;
-        private static final int KERNEL_SIZE = 3;
-        private static final int lowThresh = 20;
-        int count = 0;
+  private static final Size BLUR_SIZE = new Size(3,3);
+  private static final int RATIO = 3;
+  private static final int KERNEL_SIZE = 3;
+  private static final int lowThresh = 20;
+  int count = 0;
+
 	public ComputeNodeServiceHandler(){    	
 	}
 	@Override
@@ -26,7 +27,6 @@ public class ComputeNodeServiceHandler implements ComputeNodeService.Iface{
 	}
 	@Override
 	public boolean canny_edge_detect(String filepath){
-		System.out.println(filepath);
 		String[] components = filepath.split("/");
 		String filename = components[components.length-1];
 		System.out.println(components[components.length-1]);
@@ -38,7 +38,7 @@ public class ComputeNodeServiceHandler implements ComputeNodeService.Iface{
         	Imgproc.Canny(srcBlur, detectedEdges, lowThresh, lowThresh * RATIO, KERNEL_SIZE, false);
         	dst = new Mat(src.size(), CvType.CV_8UC3, Scalar.all(0));
         	src.copyTo(dst, detectedEdges);
-		Imgcodecs.imwrite("outputdir/output_"+ filename,dst);
+		Imgcodecs.imwrite("output_dir/output_"+ filename,dst);
 		count++;
 		return true;
 

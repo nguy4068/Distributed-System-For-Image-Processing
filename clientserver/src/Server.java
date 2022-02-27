@@ -13,6 +13,7 @@ public class Server{
 	public static void main(String[] args){
 		try {
 			String machineList = args[0];
+      System.out.println("machine list: " + args[0]);
 			serverHandler = new ServerServiceHandler(machineList);
 			processor = new ServerService.Processor(serverHandler);
 		Runnable simple = new Runnable() {
@@ -27,7 +28,7 @@ public class Server{
 	}
 	public static void simple(ServerService.Processor processor){
 		try{
-			TServerTransport serverTransport = new TServerSocket(9090);
+			TServerTransport serverTransport = new TServerSocket(8282);
 			TSimpleServer server = new TSimpleServer(new Args(serverTransport).processor(processor));
 			System.out.println("Starting a multithreaded compute node server...");
 			server.serve();

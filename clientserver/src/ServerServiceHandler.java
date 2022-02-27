@@ -21,19 +21,19 @@ public class ServerServiceHandler implements ServerService.Iface{
         	private TTransport transport;
         	private double prob;
         	private List<String> file_paths;
-                public ComputeNodeThread(ComputeNodeService.Client client, TTransport transport, double prob, List<String> file_paths){
-                	this.client = client;
-                	this.transport = transport;
-                	this.prob = prob;
-                	this.file_paths = file_paths;
-                }
+          public ComputeNodeThread(ComputeNodeService.Client client, TTransport transport, double prob, List<String> file_paths){
+            this.client = client;
+            this.transport = transport;
+            this.prob = prob;
+            this.file_paths = file_paths;
+          }
 		public void run(){
 			while (count.curr_index < count.max_index){
 				try{
 					double random = Math.random();
 					if (random > prob){
 						//should do the work
-					        int prev = count.curr_index;
+            int prev = count.curr_index;
 						count.curr_index++;
 						boolean result = client.imgprocess(file_paths.get(prev));
 					if (result){
@@ -50,17 +50,22 @@ public class ServerServiceHandler implements ServerService.Iface{
 				}
 			}
 			System.out.println("Done image processing on all images");
-			transport.close();
+      System.out.println("count.max_index: " + count.max_index);
+      System.out.println("count.curr_index: " + count.curr_index);
+      // How can I know if all the imgprocesses have been finished?
+      count.max_index = 0;
+      count.curr_index = 0;
+			// transport.close();
 		}
 	}
         
-        final Count count = new Count();
+  final Count count = new Count();
 	Scanner scanner;
 	List<String> nodes_IP;
-        List<TTransport> transports;
+  List<TTransport> transports;
 	List<ComputeNodeService.Client> clients;
 	List<String> image_path;
-        int numNodes;
+  int numNodes;
 	int start = 0;
 	int end = 0;
 	double[] probs = new double[]{0.8,0.6,0.5,0.2};
@@ -95,7 +100,8 @@ public class ServerServiceHandler implements ServerService.Iface{
 		for (int i = 0; i < numNodes; i++){
 			try {
 				TTransport transport;
-				transport = new TSocket(nodes_IP.get(i),9090);
+				transport = new TSocket(nodes_IP.get(i),8282);
+        System.out.println("nodeIP: " + nodes_IP.get(i));
 				transport.open();
 				TProtocol protocol = new TBinaryProtocol(transport);
 				ComputeNodeService.Client client = new ComputeNodeService.Client(protocol);
@@ -116,6 +122,10 @@ public class ServerServiceHandler implements ServerService.Iface{
 		traverseFolder(filepath);
 		for (int i = 0; i < numNodes; i++){
 			System.out.println("Start compute node " + i);
+      System.out.println("client: " + clients.get(i));
+      System.out.println("transport: " + transports.get(i));
+      System.out.println("probs[" + i + "]: " + probs[i]);
+      System.out.println("image_path: " + image_path);
 			Thread computenode = new Thread(new ComputeNodeThread(clients.get(i),transports.get(i), probs[i],image_path));
 			computenode.start();
 		}

@@ -10,7 +10,7 @@ public class ComputeNodeClient {
 	public static void main(String[] args){
 	try {
 		TTransport transport;
-		transport = new TSocket("localhost",9090);
+		transport = new TSocket("localhost",8282);
 		transport.open();
 		TProtocol protocol = new TBinaryProtocol(transport);
 		ComputeNodeService.Client client = new ComputeNodeService.Client(protocol);

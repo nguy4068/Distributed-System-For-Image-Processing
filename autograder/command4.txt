@@ -1,0 +1,1 @@
+ssh -t -n -f kim00967@kh4250-05.cselabs.umn.edu  "csh -c ' setenv PROJ_PATH /home/kim00967/csci5105/assignments/P1 && setenv THRIFT_LIB_PATH /project/kim00967/thrift-0.15.0/compiler/cpp/thrift && setenv OPENCV_LIB_PATH /project/kim00967/opencv/build/lib && cd /home/kim00967/csci5105/assignments/P1 &&  nohup ant server & '" > /dev/null

@@ -1,0 +1,13 @@
+file path: autograder/autograder/machine.txt
+role: node_0
+role: node_1
+role: node_2
+role: node_3
+role: server
+IP: kh4250-05.cselabs.umn.edu
+server addr: kh4250-05.cselabs.umn.edu
+Welcome to image processing service!
+Please enter path to image file that you want to do canny edge on:
+input_dir
+Canny edge detect image successfully
+End program, good bye!
