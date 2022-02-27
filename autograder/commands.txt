@@ -1,6 +1,6 @@
-node_command python computeNode.py 0
-node_command python computeNode.py 1
-node_command python computeNode.py 2
-node_command python computeNode.py 3
-server_command python server.py
-client_command python client.py
+ant -q -Dcomputenodeid=0 computenodeserver &
+ant -q -Dcomputenodeid=1 computenodeserver &
+ant -q -Dcomputenodeid=2 computenodeserver &
+ant -q -Dcomputenodeid=3 computenodeserver &
+ant -q server &
+ant -q client &
