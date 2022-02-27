@@ -1,4 +1,5 @@
-computenode0 4068 0.0
-computenode1 4000 0.0
-computenode2 4001 0.0
-computenode3 4002 0.0
+computenode0 4068 0.8
+computenode1 4000 0.6
+computenode2 4001 0.5
+computenode3 4002 0.2
+scheduler load_balancing

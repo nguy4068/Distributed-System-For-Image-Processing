@@ -82,11 +82,32 @@ public class ServerServiceHandler implements ServerService.Iface{
 				break;
 			}
 		}
-		//set up connection here
+		try {
+			file = new File("config/computenode_config.txt");
+			scanner = new Scanner(file);
+			for (int i = 0; i < 4; i++){
+				String node_config = scanner.nextLine();
+				String[] detailed_configs = node_config.split(" ");
+				int port_num = Integer.parseInt(detailed_configs[1]);
+				double prob_node = Double.parseDouble(detailed_configs[2]);
+				port_numbers[i] = port_num;
+				probs[i] = prob_node;
+			}
+			String algo = scanner.nextLine();
+			String[] details = algo.split(" ");
+			System.out.println(details[1]);
+			if (details[1].equals("load_balancing")){
+				this.scheduling_algo = 0;
+			}else{
+				this.scheduling_algo = 1;
+			}
+			
+			
+		}catch (FileNotFoundException e){
+		}
 		numNodes = nodes_IP.size();
 		image_path = new ArrayList<>();
 		this.works = new ArrayList<>();
-		this.scheduling_algo = 0;
 		
 	}
 	/*public void generateSockets(){
@@ -117,6 +138,7 @@ public class ServerServiceHandler implements ServerService.Iface{
 		delegateWorks();
 		int numTasks = image_path.size();
 		List<Thread> threads = new ArrayList<>();
+		long startTime = System.currentTimeMillis();
 		for (int i = 0; i < numTasks; i++){
 			int node = assigned_node[i]; 
 			try {
@@ -143,6 +165,13 @@ public class ServerServiceHandler implements ServerService.Iface{
 			
 				e.printStackTrace();
 			}
+		}
+		long endTime = System.currentTimeMillis();
+		long duration = endTime - startTime;
+		if (scheduling_algo == 0){
+			System.out.println("jobs using load balancing scheduler were done in " + duration + " milliseconds");
+		}else{
+			System.out.println("jobs using random scheduler were done in " + duration + " milliseconds");
 		}
 		for (int i = 0; i < numTasks; i++){
 			transports.get(i).close();
@@ -175,6 +204,7 @@ public class ServerServiceHandler implements ServerService.Iface{
 		}
 		System.out.println("Finished assigning empty array for each task");
 		if (scheduling_algo == 0){
+			System.out.println("Using load balancing algorithm");
 			while (remained_tasks > 0){
 				for (int i = 0; i < numNodes && remained_tasks > 0; i++){
 					double random = Math.random();
@@ -190,6 +220,7 @@ public class ServerServiceHandler implements ServerService.Iface{
 		
 			}
 		}else{
+			System.out.println("Using random algorithm");
 			while (remained_tasks > 0){
 				int chosen_node =(int)(Math.random()*numNodes);
 				assigned_node[first_task] = chosen_node;
