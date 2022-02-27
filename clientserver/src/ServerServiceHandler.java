@@ -20,30 +20,27 @@ public class ServerServiceHandler implements ServerService.Iface{
         	private ComputeNodeService.Client client;
         	private TTransport transport;
         	private double prob;
-        	private List<String> tasks;
-                public ComputeNodeThread(ComputeNodeService.Client client, TTransport transport,List<String> tasks){
+        	private String task;
+                public ComputeNodeThread(ComputeNodeService.Client client, TTransport transport,String task){
                 	this.client = client;
                 	this.transport = transport;
                 	this.prob = prob;
-                	this.tasks = tasks;
+                	this.task = task;
                 }
 		public void run(){
-			int numtasks = this.tasks.size();
-			System.out.println(numtasks);
-			for (int i = 0; i < numtasks; i++){
 				try{
-					boolean result = client.imgprocess(this.tasks.get(i));
+					System.out.println(task);
+					boolean result = client.imgprocess(task);
 					if (result){
-						System.out.println("Process successfully image " + this.tasks.get(i));
+						System.out.println("Process successfully image " + task);
 					
 					}else{
-						System.out.println("Failed to process image " + this.tasks.get(i));
+						System.out.println("Failed to process image " + task);
 					}
 				}catch (Exception e){
 					e.printStackTrace();
 				}
-			}
-			this.transport.close();
+
 		}
 	}
         
@@ -60,6 +57,7 @@ public class ServerServiceHandler implements ServerService.Iface{
 	int[] port_numbers = new int[]{4068,4000,4001,4002};
 	List<List<String>> works;
 	int scheduling_algo;
+	int[] assigned_node;
 	public ServerServiceHandler(String machine_file_path){
 		File file = new File(machine_file_path);
 		clients = new ArrayList<>();
@@ -91,7 +89,7 @@ public class ServerServiceHandler implements ServerService.Iface{
 		this.scheduling_algo = 0;
 		
 	}
-	public void generateSockets(){
+	/*public void generateSockets(){
 		this.transports = new ArrayList<>();
 		this.clients = new ArrayList<>();
 		for (int i = 0; i < numNodes; i++){
@@ -109,29 +107,45 @@ public class ServerServiceHandler implements ServerService.Iface{
 				x.printStackTrace();
 			}
 		}
-	}
+	}*/
         
         
 	@Override
 	public boolean imgprocess(String filepath){
-		generateSockets();
 		count.curr_index = 0;
 		traverseFolder(filepath);
 		delegateWorks();
+		int numTasks = image_path.size();
 		List<Thread> threads = new ArrayList<>();
-		for (int i = 0; i < numNodes; i++){
-			System.out.println("Start compute node " + i);
-			Thread computenode = new Thread(new ComputeNodeThread(clients.get(i),transports.get(i), works.get(i)));
-			threads.add(computenode);
-			computenode.start();
+		for (int i = 0; i < numTasks; i++){
+			int node = assigned_node[i]; 
+			try {
+				TTransport transport = new TSocket(nodes_IP.get(node),port_numbers[node]);
+				transport.open();
+				TProtocol protocol = new TBinaryProtocol(transport);
+				ComputeNodeService.Client client = new ComputeNodeService.Client(protocol);
+				clients.add(client);
+				transports.add(transport);
+				Thread task = new Thread(new 		ComputeNodeThread(client,transport, image_path.get(i)));
+				threads.add(task);
+				task.start();
+				
+			}catch (TException x){
+				System.out.println("Failed to open connection");
+				x.printStackTrace();
+			}
+			
 		}
-		for (int i = 0; i < numNodes; i++){
+		for (int i = 0; i < numTasks; i++){
 			try{
 				threads.get(i).join();
 			}catch (Exception e){
 			
 				e.printStackTrace();
 			}
+		}
+		for (int i = 0; i < numTasks; i++){
+			transports.get(i).close();
 		}
 		return true;
 		
@@ -147,12 +161,12 @@ public class ServerServiceHandler implements ServerService.Iface{
 	 		System.out.println(f.getAbsolutePath());
 	 	}
 	 	end = image_path.size();
+	 	this.assigned_node = new int[image_path.size()];
 
 	}
 	public void delegateWorks(){
 		System.out.println("Started delegate works");
 		int remained_tasks = image_path.size();
-		boolean[] assigned = new boolean[remained_tasks];
 		int first_task = 0;
 		System.out.println("Started assigning empty array");
 		for (int i = 0; i < numNodes; i++){
@@ -166,7 +180,8 @@ public class ServerServiceHandler implements ServerService.Iface{
 					double random = Math.random();
 					if (random > probs[i]){
 						//should do the work
-						works.get(i).add(image_path.get(first_task));
+						assigned_node[first_task] = i;
+						/**works.get(i).add(image_path.get(first_task));**/
 						first_task++;
 						remained_tasks--;
 					}
@@ -177,7 +192,8 @@ public class ServerServiceHandler implements ServerService.Iface{
 		}else{
 			while (remained_tasks > 0){
 				int chosen_node =(int)(Math.random()*numNodes);
-				works.get(chosen_node).add(image_path.get(first_task));
+				assigned_node[first_task] = chosen_node;
+				//works.get(chosen_node).add(image_path.get(first_task));
 				first_task++;
 				remained_tasks--;
 				
