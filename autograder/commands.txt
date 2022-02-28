@@ -1,6 +1,6 @@
-ant -q -Dcomputenodeid=0 computenodeserver
-ant -q -Dcomputenodeid=1 computenodeserver
-ant -q -Dcomputenodeid=2 computenodeserver
-ant -q -Dcomputenodeid=3 computenodeserver
-ant -q server
-ant -q client
+NODE_COMMAND_0 ant -q -Dcomputenodeid=0 computenodeserver
+NODE_COMMAND_1 ant -q -Dcomputenodeid=1 computenodeserver
+NODE_COMMAND_2 ant -q -Dcomputenodeid=2 computenodeserver
+NODE_COMMAND_3 ant -q -Dcomputenodeid=3 computenodeserver
+SERVER_COMMAND ant -q server
+CLIENT_COMMAND ant -q client
