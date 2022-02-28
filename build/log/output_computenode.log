@@ -1,4 +1,68 @@
-Starting a multithreaded compute node server...
+0
+computenode0 4068 0.8
+Compute node 0 run on port 4068 with injecting probability of 0.80Compute node 3Received request /home/Received request /home/nguy4068/CSCI5105/P1/input_dir/detect_blob.png
+/home/nguy4068/CSCI5105/P1/input_dir/detect_blob.png
+Received request /home/nguy4068/CSCI5105/P1/input_dir/aero3.jpg
+/home/nguy4068/CSCI5105/P1/input_dir/aero3.jpg
+Received request /home/nguy4068/CSCI5105/P1/input_dir/baboon.jpg
+/home/nguy4068/CSCI5105/P1/input_dir/baboon.jpg
+Received request /home/nguy4068/CSCI5105/P1/input_dir/digits.png
+/home/nguy4068/CSCI5105/P1/input_dir/digits.png
+Received request /home/nguy4068/CSCI5105/P1/input_dir/sudoku.png
+/home/nguy4068/CSCI5105/P1/input_dir/sudoku.png
+Received request /home/nguy4068/CSCI5105/P1/input_dir/left11.jpg
+/home/nguy4068/CSCI5105/P1/input_dir/left11.jpg
+Received request /home/nguy4068/CSCI5105/P1/input_dir/right01.jpg
+/home/nguy4068/CSCI5105/P1/input_dir/right01.jpg
+Received request /home/nguy4068/CSCI5105/P1/input_dir/leuvenA.jpg
+/home/nguy4068/CSCI5105/P1/input_dir/leuvenA.jpg
+Received request /home/nguy4068/CSCI5105/P1/input_dir/ela_modified.jpg
+/home/nguy4068/CSCI5105/P1/inpuDelay job
+Delay job
+Delay job
+/home/nguy4068/CSCI5105/P1/input_dir/blox.jpg
+/home/nguy4068/CSCI5105/P1/input_dir/leuvenB.jpg
+Delay job
+Delay job
+Delay job
+leuvenB.jpg
+blox.jpg
+/home/nguy4068/CSCI5105/P1/input_dir/aloeGT.png
+aloeGT.png
+Done writing image for blox.jpg
+Done writing image for leuvenB.jpg
+Done writing image for aloeGT.png
+/home/nguy4068/CSCI5105/P1/input_dir/cards.png
+/home/nguy4068/CSCI5105/P1/input_dir/left02.jpg
+/home/nguy4068/CSCI5105/P1/input_dir/chessboard.png
+/home/nguy4068/CSCI5105/P1/input_dir/text_defocus.jpg
+/home/nguy4068/CSCI5105/P1/input_dir/ellipses.jpg
+text_defocus.jpg
+chessboard.png
+left02.jpg
+cards.png
+/home/nguy4068/CSCI5105/P1/input_dir/smarties.png
+ellipses.jpg
+smarties.png
+Done writing image for text_defocus.jpg
+Done writing image for cards.png
+Done writing image for smarties.png
+Done writing image for left02.jpg
+Done writing image for ellipses.jpg
+log4j:WARN No appenders could be found for logger (org.apache.thrift.server.TThreadPoolServer).
+log4j:WARN No appenders could be found for logger (org.apache.thrift.server.TThreadPoolServer).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN No appenders could be found for logger (org.apache.thrift.server.TThreadPoolServer).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN No appenders could be found for logger (org.apache.thrift.server.TThreadPoolServer).
+log4j:WARN No appenders could be found for logger (org.apache.thrift.server.TThreadPoolServer).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN No appenders could be found for logger (org.apache.thrift.server.TThreadPoolServer).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
 log4j:WARN No appenders could be found for logger (org.apache.thrift.server.TThreadPoolServer).
 log4j:WARN Please initialize the log4j system properly.
 log4j:WARN No appenders could be found for logger (org.apache.thrift.server.TThreadPoolServer).
@@ -7,36 +71,230 @@ log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more in
 log4j:WARN No appenders could be found for logger (org.apache.thrift.server.TThreadPoolServer).
 log4j:WARN Please initialize the log4j system properly.
 log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN Please initialize the log4j system properly.
 log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
-Received request
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+Done writing image for chessboard.png
+writing image for notes.png
+Done writing image for pic6.png
+Done writing image for pic3.png
+Done writing image for left05.jpg
+Done writing image for stuff.jpg
+Done writing image for pic2.png
+Done writing image for right07.jpg
+Done writing image for left12.jpg
+Done writing image for left06.jpg
+Done writing image for opencv-logo.png
+Done writing image for lena.jpg
+Done writing image for output.png
+/home/nguy4068/CSCI5105/P1/input_dir/imageTextN.png
+/home/nguy4068/CSCI5105/P1/input_dir/orange.jpg
 /home/nguy4068/CSCI5105/P1/input_dir/HappyFish.jpg
-Received request
-/home/nguy4068/CSCI5105/P1/input_dir/aloeL.jpg
-Received request
-/home/nguy4068/CSCI5105/P1/input_dir/Megamind_bugy.avi
-Received request
-/home/nguy4068/CSCI5105/P1/input_dir/apple.jpg
-/home/nguy4068/CSCI5105/P1/input_dir/HappyFish.jpg
-/home/nguy4068/CSCI5105/P1/input_dir/apple.jpg
-/home/nguy4068/CSCI5105/P1/input_dir/aloeL.jpg
+/home/nguy4068/CSCI5105/P1/input_dir/licenseplate_motion.jpg
+/home/nguy4068/CSCI5105/P1/input_dir/graf1.png
+/home/nguy4068/CSCI5105/P1/input_dir/left.jpg
+/home/nguy4068/CSCI5105/P1/input_dir/rubberwhale1.png
+licenseplate_motion.jpg
+/home/nguy4068/CSCI5105/P1/input_dir/squirrel_cls.jpg
 HappyFish.jpg
-/home/nguy4068/CSCI5105/P1/input_dir/Megamind_bugy.avi
-Megamind_bugy.avi
-apple.jpg
-aloeL.jpg
-Received request
-/home/nguy4068/CSCI5105/P1/input_dir/fruits.jpg
-/home/nguy4068/CSCI5105/P1/input_dir/fruits.jpg
-fruits.jpg
-Received request
-/home/nguy4068/CSCI5105/P1/input_dir/squirrel_cls.jpg
-/home/nguy4068/CSCI5105/P1/input_dir/squirrel_cls.jpg
+orange.jpg
+imageTextN.png
 squirrel_cls.jpg
-Received request
-/home/nguy4068/CSCI5105/P1/input_dir/baboon.jpg
-/home/nguy4068/CSCI5105/P1/input_dir/baboon.jpg
-baboon.jpg
-Received request
-/home/nguy4068/CSCI5105/P1/input_dir/lena.jpg
-/home/nguy4068/CSCI5105/P1/input_dir/lena.jpg
-lena.jpg
+/home/nguy4068/CSCI5105/P1/input_dir/fruits.jpg
+/home/nguy4068/CSCI5105/P1/input_dir/right02.jpg
+/home/nguy4068/CSCI5105/P1/input_dir/box_in_scene.png
+/home/nguy4068/CSCI5105/P1/input_dir/left13.jpg
+/home/nguy4068/CSCI5105/P1/input_dir/mask.png
+left13.jpg
+mask.png
+rubberwhale1.png
+/home/nguy4068/CSCI5105/P1/input_dir/box.png
+left.jpg
+graf1.png
+box.png
+box_in_scene.png
+right02.jpg
+fruits.jpg
+Done writing image for HappyFish.jpg
+Done writing image for imageTextN.png
+Done writing image for licenseplate_motion.jpg
+Done writing image for mask.png
+Done writing image for orange.jpg
+Done writing image for squirrel_cls.jpg
+Done writing image for right02.jpg
+Done writing image for box.png
+Done writing image for box_in_scene.png
+Done writing image for left.jpg
+Done writing image for left13.jpg
+Done writing image for fruits.jpg
+Done writing image for rubberwhale1.png
+Done writing image for graf1.png
+log4j:WARN No appenders could be found for logger (org.apache.thrift.server.TThreadPoolServer).
+log4j:WARN No appenders could be found for logger (org.apache.thrift.server.TThreadPoolServer).
+log4j:WARN No appenders could be found for logger (org.apache.thrift.server.TThreadPoolServer).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN No appenders could be found for logger (org.apache.thrift.server.TThreadPoolServer).
+log4j:WARN No appenders could be found for logger (org.apache.thrift.server.TThreadPoolServer).
+log4j:WARN No appenders could be found for logger (org.apache.thrift.server.TThreadPoolServer).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN No appenders could be found for logger (org.apache.thrift.server.TThreadPoolServer).
+log4j:WARN No appenders could be found for logger (org.apache.thrift.server.TThreadPoolServer).
+log4j:WARN No appenders could be found for logger (org.apache.thrift.server.TThreadPoolServer).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN No appenders could be found for logger (org.apache.thrift.server.TThreadPoolServer).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN No appenders could be found for logger (org.apache.thrift.server.TThreadPoolServer).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN No appenders could be found for logger (org.apache.thrift.server.TThreadPoolServer).
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN No appenders could be found for logger (org.apache.thrift.server.TThreadPoolServer).
+log4j:WARN No appenders could be found for logger (org.apache.thrift.server.TThreadPoolServer).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN No appenders could be found for logger (org.apache.thrift.server.TThreadPoolServer).
+log4j:WARN No appenders could be found for logger (org.apache.thrift.server.TThreadPoolServer).
+log4j:WARN No appenders could be found for logger (org.apache.thrift.server.TThreadPoolServer).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN No appenders could be found for logger (org.apache.thrift.server.TThreadPoolServer).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN No appenders could be found for logger (org.apache.thrift.server.TThreadPoolServer).
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN No appenders could be found for logger (org.apache.thrift.server.TThreadPoolServer).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN No appenders could be found for logger (org.apache.thrift.server.TThreadPoolServer).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN No appenders could be found for logger (org.apache.thrift.server.TThreadPoolServer).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN No appenders could be found for logger (org.apache.thrift.server.TThreadPoolServer).
+log4j:WARN No appenders could be found for logger (org.apache.thrift.server.TThreadPoolServer).
+log4j:WARN No appenders could be found for logger (org.apache.thrift.server.TThreadPoolServer).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN No appenders could be found for logger (org.apache.thrift.server.TThreadPoolServer).
+log4j:WARN No appenders could be found for logger (org.apache.thrift.server.TThreadPoolServer).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+lServer).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN No appenders could be found for logger (org.apache.thrift.server.TThreadPoolServer).
+log4j:WARN No appenders could be found for logger (org.apache.thrift.server.TThreadPoolServer).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN No appenders could be found for logger (org.apache.thrift.server.TThreadPoolServer).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN No appenders could be found for logger (org.apache.thrift.server.TThreadPoolServer).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN No appenders could be found for logger (org.apache.thrift.server.TThreadPoolServer).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN No appenders could be found for logger (org.apache.thrift.server.TThreadPoolServer).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN No appenders could be found for logger (org.apache.thrift.server.TThreadPoolServer).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN No appenders could be found for logger (org.apache.thrift.server.TThreadPoolServer).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN No appenders could be found for logger (org.apache.thrift.server.TThreadPoolServer).
+log4j:WARN No appenders could be found for logger (org.apache.thrift.server.TThreadPoolServer).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN No appenders could be found for logger (org.apache.thrift.server.TThreadPoolServer).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN No appenders could be found for logger (org.apache.thrift.server.TThreadPoolServer).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN No appenders could be found for logger (org.apache.thrift.server.TThreadPoolServer).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN No appenders could be found for logger (org.apache.thrift.server.TThreadPoolServer).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN No appenders could be found for logger (org.apache.thrift.server.TThreadPoolServer).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.

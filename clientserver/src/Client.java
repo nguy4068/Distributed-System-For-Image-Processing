@@ -10,7 +10,7 @@ public class Client {
 	public static void main(String[] args){
 	try {
 		TTransport transport;
-		transport = new TSocket("localhost",9000);
+		transport = new TSocket("kh4250-09.cselabs.umn.edu",9000);
 		transport.open();
 		TProtocol protocol = new TBinaryProtocol(transport);
 		ServerService.Client client = new ServerService.Client(protocol);
