@@ -104,8 +104,8 @@
   </target>
   <target name="client" description="Run a compute node client" depends="compile">
     <echo>compute node client:</echo>
-    <java classname="${clientclassname}"
-      classpathref="request.classpath" failonerror="true">
+    <java classname="${clientclassname}" classpathref="request.classpath" failonerror="true">
+    <arg value="config/machine.txt"/>
     </java>
   </target>
 
