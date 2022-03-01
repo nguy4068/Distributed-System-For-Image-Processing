@@ -98,7 +98,8 @@
   <target name="server" description="Run a data request server" depends="compile">
       <java classname="${serverclassname}" fork="true"
         classpathref="request.classpath" failonerror="false" output="${build}/log/output_server.log">
-        <arg value="config/machine.txt"/>
+        <arg value="${env.MACHINE_PATH}"/>
+        <arg value="${env.NODE_CONFIG_PATH}"/>
 	<sysproperty key="java.library.path" path="${env.OPENCV_LIB}"/>
      </java>
   </target>
