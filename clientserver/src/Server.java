@@ -18,8 +18,8 @@ public class Server{
 			String machineList = args[0];
 			String nodeConfig = args[1];
 			//initialize server handler and server stub
-			serverHandler = new ServerServiceHandler(machineList);
-			processor = new ServerService.Processor(serverHandler, nodeConfig);
+			serverHandler = new ServerServiceHandler(machineList, nodeConfig);
+			processor = new ServerService.Processor(serverHandler);
 			//run server main thread
 			Runnable simple = new Runnable() {
 				public void run(){

@@ -52,5 +52,3 @@ source kill_command_0.sh
 source kill_command_1.sh
 source kill_command_2.sh
 source kill_command_3.sh
-source kill_command_4.sh
-source kill_command_5.sh

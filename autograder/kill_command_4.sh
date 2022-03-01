@@ -1,1 +1,1 @@
-ssh -t -n -f kim00967@kh4250-05.cselabs.umn.edu  'pkill -f ".*ant -q server.*"'
+ssh -t -n -f nguy4068@kh4250-09.cselabs.umn.edu  'pkill -f ".*ant -q server.*"'
