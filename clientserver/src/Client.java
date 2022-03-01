@@ -9,6 +9,7 @@ import server.*;
 public class Client {
 	public static Scanner scanner = new Scanner(System.in);
 	public static void main(String[] args){
+
 	try {
 
     String serverAddr = getServerAddr(args[0]);
@@ -19,6 +20,13 @@ public class Client {
 		TProtocol protocol = new TBinaryProtocol(transport);
 		ServerService.Client client = new ServerService.Client(protocol);
 		perform(client);
+    // Sleep here so the log file can capture the client process
+    try {
+      Thread.sleep(3000000);
+    } catch(InterruptedException e) {
+        e.printStackTrace();
+    }
+
 		System.out.println("Exit client");
 		transport.close();
 	}catch (TException x){
