@@ -10,6 +10,7 @@ public class Client {
 	public static void main(String[] args){
 	try {
 		TTransport transport;
+		//should not be hard code
 		transport = new TSocket("kh4250-09.cselabs.umn.edu",9000);
 		transport.open();
 		TProtocol protocol = new TBinaryProtocol(transport);
