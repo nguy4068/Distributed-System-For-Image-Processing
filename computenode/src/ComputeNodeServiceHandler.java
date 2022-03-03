@@ -8,17 +8,28 @@ import org.opencv.core.Size;
 import org.opencv.highgui.HighGui;
 import org.opencv.imgcodecs.Imgcodecs;
 import org.opencv.imgproc.Imgproc;
-
+/**
+ *ComputeNodeServiceHandler is the worker of compute node
+ */
 public class ComputeNodeServiceHandler implements ComputeNodeService.Iface{
-        private static final Size BLUR_SIZE = new Size(3,3);
+        //Declare essential variables for canny edge detection function
+	private static final Size BLUR_SIZE = new Size(3,3);
         private static final int RATIO = 3;
         private static final int KERNEL_SIZE = 3;
         private static final int lowThresh = 20;
-        int count = 0;
-        double inject_prob;
+        double inject_prob;//probability that the node will delay
+	/**
+	 *Constructor takes in inject_prob
+	 */
 	public ComputeNodeServiceHandler(double inject_prob){
 		this.inject_prob = inject_prob;	
 	}
+	/**
+	 *this function will take in filepath and output canny edge detected
+	 *image
+	 *@param filepath the path name of the image
+	 *@return true if image process is done successfully false otherwise
+	 */
 	@Override
 	public boolean imgprocess(String filepath){
 		System.out.println("Received request " + filepath);
@@ -42,18 +53,22 @@ public class ComputeNodeServiceHandler implements ComputeNodeService.Iface{
 		String[] components = filepath.split("/");
 		String filename = components[components.length-1];
 		System.out.println(components[components.length-1]);
-    		Mat src = Imgcodecs.imread(filepath);
-    		Mat srcBlur = new Mat();
-    		Mat detectedEdges = new Mat();
-    		Mat dst = new Mat();
-		Imgproc.blur(src, srcBlur, BLUR_SIZE);
-        	Imgproc.Canny(srcBlur, detectedEdges, lowThresh, lowThresh * RATIO, KERNEL_SIZE, false);
-        	dst = new Mat(src.size(), CvType.CV_8UC3, Scalar.all(0));
-        	src.copyTo(dst, detectedEdges);
-		Imgcodecs.imwrite("output_dir/output_"+ filename,dst);
-		count++;
-		System.out.println("Done writing image for " + filename);
-		return true;
+		try{
+    			Mat src = Imgcodecs.imread(filepath);
+    			Mat srcBlur = new Mat();
+    			Mat detectedEdges = new Mat();
+    			Mat dst = new Mat();
+			Imgproc.blur(src, srcBlur, BLUR_SIZE);
+        		Imgproc.Canny(srcBlur, detectedEdges, lowThresh, lowThresh * RATIO, KERNEL_SIZE, false);
+        		dst = new Mat(src.size(), CvType.CV_8UC3, Scalar.all(0));
+        		src.copyTo(dst, detectedEdges);
+			Imgcodecs.imwrite("output_dir/output_"+ filename,dst);
+			System.out.println("Done writing image for " + filename);
+			return true;
+		}catch (Exception e){
+			e.printStackTrace();
+			return false;
+		}
 
 	}
 

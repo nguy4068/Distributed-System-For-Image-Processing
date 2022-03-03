@@ -30,10 +30,10 @@ do
       NODE_PID_3=`lsof -i:$NODE_PORT_3 | grep "java" | awk '{print $2}'`
     fi
 done 
-kill $NODE_PID_0 &
-kill $NODE_PID_1 &
-kill $NODE_PID_2 &
-kill $NODE_PID_3 &
+kill -9 $NODE_PID_0
+kill -9 $NODE_PID_1
+kill -9 $NODE_PID_2
+kill -9 $NODE_PID_3
 
 
 

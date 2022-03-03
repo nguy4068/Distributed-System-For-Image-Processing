@@ -16,10 +16,6 @@ ServerServiceHandler is the core of Server, each RPC request from client
 will be handled using instance of this class
  */
 public class ServerServiceHandler implements ServerService.Iface{
-        class Count{
-        	public volatile int curr_index = 0;
-        	public volatile int max_index = 0;
-        }
 		/**
 		ComputeNodeThread is a customized thread used to perform RPC request
 		for a single task (an image path)
@@ -64,16 +60,12 @@ public class ServerServiceHandler implements ServerService.Iface{
 
 			}
 	}
-        
-        final Count count = new Count();
 	Scanner scanner;
 	List<String> nodes_IP;//list of IP addresses of compute nodes
     List<TTransport> transports;//list of connections
 	List<ComputeNodeService.Client> clients;//list of clients responsible to make RPC to compute node
 	List<String> image_path;//list of image filenames inside the input_dir folder
-    int numNodes;//number of compute nodes that server can connect tos
-	int start = 0;
-	int end = 0;
+        int numNodes;//number of compute nodes that server can connect tos
 	double[] probs = new double[]{0.8,0.2,0.5,0.4};//default value of load probabilities for each compute node
 	int[] port_numbers = new int[]{4068,4000,4001,4002};//default running of each compute node
 	List<List<String>> works;
@@ -140,7 +132,6 @@ public class ServerServiceHandler implements ServerService.Iface{
         
 	@Override
 	public boolean imgprocess(String filepath){
-		count.curr_index = 0;
 		//traverse input folder to extract file names
 		traverseFolder(filepath);
 		//delegate tasks for each compute node
@@ -193,6 +184,8 @@ public class ServerServiceHandler implements ServerService.Iface{
 		for (int i = 0; i < numTasks; i++){
 			transports.get(i).close();
 		}
+		transports = new ArrayList<>();
+		clients = new ArrayList<>();
 		return true;
 		
 	
@@ -209,7 +202,6 @@ public class ServerServiceHandler implements ServerService.Iface{
 	 		image_path.add(f.getAbsolutePath());
 	 		System.out.println(f.getAbsolutePath());
 	 	}
-	 	end = image_path.size();
 		//initialize array to later keep track on which node will handle which task
 	 	this.assigned_node = new int[image_path.size()];
 
@@ -221,12 +213,6 @@ public class ServerServiceHandler implements ServerService.Iface{
 		System.out.println("Started delegate works");
 		int remained_tasks = image_path.size();
 		int first_task = 0;
-		System.out.println("Started assigning empty array");
-		for (int i = 0; i < numNodes; i++){
-			List<String> individual_task = new ArrayList<>();
-			this.works.add(individual_task);
-		}
-		System.out.println("Finished assigning empty array for each task");
 		//if using the load balancing algorithm
 		if (scheduling_algo == 0){
 			System.out.println("Using load balancing algorithm");

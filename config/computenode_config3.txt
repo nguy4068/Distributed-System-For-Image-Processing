@@ -1,0 +1,5 @@
+computenode0 4068 0.8
+computenode1 4000 0.8
+computenode2 4001 0.8
+computenode3 4002 0.8
+scheduler random

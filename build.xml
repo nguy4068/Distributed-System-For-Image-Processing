@@ -30,7 +30,8 @@
   <property name="cpnclientclassname" value="ComputeNodeClient"/>
   <property name="serverclassname" value="Server"/>
   <property name="clientclassname" value="Client"/>
-  
+  <property name="computenodedir" value="computenode"/>
+  <property name="clientserverdir" value="clientserver"/>
   <path id="libs.classpath">
 	  <fileset dir="${env.JAVA_LIBS}">
       <include name="libthrift*.jar" />
@@ -55,12 +56,18 @@
   </path>
 
   <target name="init">
-    <tstamp />
+	  <tstamp />
+    <mkdir dir="${clientserverdir}/gen-java"/>
+    <mkdir dir="${computenodedir}/gen-java"/>
     <mkdir dir="${build}"/>
     <mkdir dir="${build}/log"/>
   </target>
+  <target name="cleanup">
+	  <delete dir="output_dir"/>
+          <mkdir dir="output_dir"/>
+  </target>
 
-  <target name="compile" depends="init, generate">
+  <target name="compile" depends="init">
     <javac compiler="modern" includeantruntime="false" srcdir="${gencomputenode}" destdir="${build}" classpathref="libs.classpath" />
     <javac compiler="modern" includeantruntime="false" srcdir="${genserver}" destdir="${build}" classpathref="libs.classpath" />
     <javac compiler="modern" includeantruntime="false" srcdir="${srccomputenode}" destdir="${build}" classpathref="build.classpath" />
@@ -71,9 +78,19 @@
 	  <exec executable="${env.THRIFT_LIB_PATH}" failonerror="true">
       <arg line="--gen java -r  computenode/computenode.thrift"/>
     </exec>
+    <sleep seconds="2"/>
+    <move todir="${computenodedir}/gen-java">
+	<fileset dir="gen-java"/>
+    </move>
+    <sleep seconds="1"/>
     <exec executable="${env.THRIFT_LIB_PATH}" failonerror="true">
       <arg line="--gen java -r  clientserver/imageserver.thrift"/>
     </exec>
+    <sleep seconds="2"/>
+    <move todir="${clientserverdir}/gen-java">
+	    <fileset dir="gen-java"/>
+    </move>
+    
   </target>
 
   <target name="computenodeclient" description="Run a compute node client" depends="compile">
@@ -96,14 +113,15 @@
      </java>
   </target>
   <target name="server" description="Run a data request server" depends="compile">
+      <property name="output_log" value="log/output_server.log"/>
       <java classname="${serverclassname}" fork="true"
-        classpathref="request.classpath" failonerror="false" output="${build}/log/output_server.log">
+        classpathref="request.classpath" failonerror="false" output="${build}/${output_log}">
         <arg value="${env.MACHINE_PATH}"/>
         <arg value="${env.NODE_CONFIG_PATH}"/>
 	<sysproperty key="java.library.path" path="${env.OPENCV_LIB}"/>
      </java>
   </target>
-  <target name="client" description="Run a compute node client" depends="compile">
+  <target name="client" description="Run a compute node client" depends="compile,cleanup">
     <echo>compute node client:</echo>
     <java classname="${clientclassname}" classpathref="request.classpath" failonerror="true">
     <arg value="config/machine.txt"/>
@@ -112,7 +130,7 @@
 
   <target name="clean">
     <delete dir="${build}" />
-    <delete dir="${gen}"/>
+    <delete dir="output_dir"/>
     <delete file="request.jar" />
   </target>
 
